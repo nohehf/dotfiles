@@ -2,787 +2,18 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Actions</key>
-	<array/>
-	<key>AlternateMouseScroll</key>
-	<true/>
-	<key>BracketedPasteMode</key>
-	<true/>
-	<key>Custom Color Presets</key>
-	<dict>
-		<key>OneDark</key>
-		<dict>
-			<key>WebMainResource</key>
-			<dict>
-				<key>WebResourceData</key>
-				<data>
-				PGh0bWw+PGhlYWQ+PC9oZWFkPjxib2R5PjxwcmUgc3R5
-				bGU9IndvcmQtd3JhcDogYnJlYWstd29yZDsgd2hpdGUt
-				c3BhY2U6IHByZS13cmFwOyI+Jmx0Oz94bWwgdmVyc2lv
-				bj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPyZndDsKJmx0
-				OyFET0NUWVBFIHBsaXN0IFBVQkxJQyAiLS8vQXBwbGUv
-				L0RURCBQTElTVCAxLjAvL0VOIiAiaHR0cDovL3d3dy5h
-				cHBsZS5jb20vRFREcy9Qcm9wZXJ0eUxpc3QtMS4wLmR0
-				ZCImZ3Q7CiZsdDtwbGlzdCB2ZXJzaW9uPSIxLjAiJmd0
-				OwombHQ7ZGljdCZndDsKCSZsdDtrZXkmZ3Q7QW5zaSAw
-				IENvbG9yJmx0Oy9rZXkmZ3Q7CgkmbHQ7ZGljdCZndDsK
-				CQkmbHQ7a2V5Jmd0O0FscGhhIENvbXBvbmVudCZsdDsv
-				a2V5Jmd0OwoJCSZsdDtyZWFsJmd0OzEmbHQ7L3JlYWwm
-				Z3Q7CgkJJmx0O2tleSZndDtCbHVlIENvbXBvbmVudCZs
-				dDsva2V5Jmd0OwoJCSZsdDtyZWFsJmd0OzAuMTY4NjI3
-				NDU1ODMwNTc0MDQmbHQ7L3JlYWwmZ3Q7CgkJJmx0O2tl
-				eSZndDtDb2xvciBTcGFjZSZsdDsva2V5Jmd0OwoJCSZs
-				dDtzdHJpbmcmZ3Q7c1JHQiZsdDsvc3RyaW5nJmd0OwoJ
-				CSZsdDtrZXkmZ3Q7R3JlZW4gQ29tcG9uZW50Jmx0Oy9r
-				ZXkmZ3Q7CgkJJmx0O3JlYWwmZ3Q7MC4xNDUwOTgwNDU0
-				NjgzMzAzOCZsdDsvcmVhbCZndDsKCQkmbHQ7a2V5Jmd0
-				O1JlZCBDb21wb25lbnQmbHQ7L2tleSZndDsKCQkmbHQ7
-				cmVhbCZndDswLjEyOTQxMTc3MTg5MzUwMTI4Jmx0Oy9y
-				ZWFsJmd0OwoJJmx0Oy9kaWN0Jmd0OwoJJmx0O2tleSZn
-				dDtBbnNpIDEgQ29sb3ImbHQ7L2tleSZndDsKCSZsdDtk
-				aWN0Jmd0OwoJCSZsdDtrZXkmZ3Q7QWxwaGEgQ29tcG9u
-				ZW50Jmx0Oy9rZXkmZ3Q7CgkJJmx0O3JlYWwmZ3Q7MSZs
-				dDsvcmVhbCZndDsKCQkmbHQ7a2V5Jmd0O0JsdWUgQ29t
-				cG9uZW50Jmx0Oy9rZXkmZ3Q7CgkJJmx0O3JlYWwmZ3Q7
-				MC40NTg4MjM1MzE4NjYwNzM2MSZsdDsvcmVhbCZndDsK
-				CQkmbHQ7a2V5Jmd0O0NvbG9yIFNwYWNlJmx0Oy9rZXkm
-				Z3Q7CgkJJmx0O3N0cmluZyZndDtzUkdCJmx0Oy9zdHJp
-				bmcmZ3Q7CgkJJmx0O2tleSZndDtHcmVlbiBDb21wb25l
-				bnQmbHQ7L2tleSZndDsKCQkmbHQ7cmVhbCZndDswLjQy
-				MzUyOTQxNjMyMjcwODEzJmx0Oy9yZWFsJmd0OwoJCSZs
-				dDtrZXkmZ3Q7UmVkIENvbXBvbmVudCZsdDsva2V5Jmd0
-				OwoJCSZsdDtyZWFsJmd0OzAuODc4NDMxMzc5Nzk1MDc0
-				NDYmbHQ7L3JlYWwmZ3Q7CgkmbHQ7L2RpY3QmZ3Q7Cgkm
-				bHQ7a2V5Jmd0O0Fuc2kgMTAgQ29sb3ImbHQ7L2tleSZn
-				dDsKCSZsdDtkaWN0Jmd0OwoJCSZsdDtrZXkmZ3Q7QWxw
-				aGEgQ29tcG9uZW50Jmx0Oy9rZXkmZ3Q7CgkJJmx0O3Jl
-				YWwmZ3Q7MSZsdDsvcmVhbCZndDsKCQkmbHQ7a2V5Jmd0
-				O0JsdWUgQ29tcG9uZW50Jmx0Oy9rZXkmZ3Q7CgkJJmx0
-				O3JlYWwmZ3Q7MC40NzQ1MDk4MDU0NDA5MDI3MSZsdDsv
-				cmVhbCZndDsKCQkmbHQ7a2V5Jmd0O0NvbG9yIFNwYWNl
-				Jmx0Oy9rZXkmZ3Q7CgkJJmx0O3N0cmluZyZndDtzUkdC
-				Jmx0Oy9zdHJpbmcmZ3Q7CgkJJmx0O2tleSZndDtHcmVl
-				biBDb21wb25lbnQmbHQ7L2tleSZndDsKCQkmbHQ7cmVh
-				bCZndDswLjc2NDcwNTg5NjM3NzU2MzQ4Jmx0Oy9yZWFs
-				Jmd0OwoJCSZsdDtrZXkmZ3Q7UmVkIENvbXBvbmVudCZs
-				dDsva2V5Jmd0OwoJCSZsdDtyZWFsJmd0OzAuNTk2MDc4
-				NDU1NDQ4MTUwNjMmbHQ7L3JlYWwmZ3Q7CgkmbHQ7L2Rp
-				Y3QmZ3Q7CgkmbHQ7a2V5Jmd0O0Fuc2kgMTEgQ29sb3Im
-				bHQ7L2tleSZndDsKCSZsdDtkaWN0Jmd0OwoJCSZsdDtr
-				ZXkmZ3Q7QWxwaGEgQ29tcG9uZW50Jmx0Oy9rZXkmZ3Q7
-				CgkJJmx0O3JlYWwmZ3Q7MSZsdDsvcmVhbCZndDsKCQkm
-				bHQ7a2V5Jmd0O0JsdWUgQ29tcG9uZW50Jmx0Oy9rZXkm
-				Z3Q7CgkJJmx0O3JlYWwmZ3Q7MC40ODIzNTI5NDIyMjgz
-				MTcyNiZsdDsvcmVhbCZndDsKCQkmbHQ7a2V5Jmd0O0Nv
-				bG9yIFNwYWNlJmx0Oy9rZXkmZ3Q7CgkJJmx0O3N0cmlu
-				ZyZndDtzUkdCJmx0Oy9zdHJpbmcmZ3Q7CgkJJmx0O2tl
-				eSZndDtHcmVlbiBDb21wb25lbnQmbHQ7L2tleSZndDsK
-				CQkmbHQ7cmVhbCZndDswLjc1Mjk0MTE5MTE5NjQ0MTY1
-				Jmx0Oy9yZWFsJmd0OwoJCSZsdDtrZXkmZ3Q7UmVkIENv
-				bXBvbmVudCZsdDsva2V5Jmd0OwoJCSZsdDtyZWFsJmd0
-				OzAuODk4MDM5MjIxNzYzNjEwODQmbHQ7L3JlYWwmZ3Q7
-				CgkmbHQ7L2RpY3QmZ3Q7CgkmbHQ7a2V5Jmd0O0Fuc2kg
-				MTIgQ29sb3ImbHQ7L2tleSZndDsKCSZsdDtkaWN0Jmd0
-				OwoJCSZsdDtrZXkmZ3Q7QWxwaGEgQ29tcG9uZW50Jmx0
-				Oy9rZXkmZ3Q7CgkJJmx0O3JlYWwmZ3Q7MSZsdDsvcmVh
-				bCZndDsKCQkmbHQ7a2V5Jmd0O0JsdWUgQ29tcG9uZW50
-				Jmx0Oy9rZXkmZ3Q7CgkJJmx0O3JlYWwmZ3Q7MC45Mzcy
-				NTQ5MDU3MDA2ODM1OSZsdDsvcmVhbCZndDsKCQkmbHQ7
-				a2V5Jmd0O0NvbG9yIFNwYWNlJmx0Oy9rZXkmZ3Q7CgkJ
-				Jmx0O3N0cmluZyZndDtzUkdCJmx0Oy9zdHJpbmcmZ3Q7
-				CgkJJmx0O2tleSZndDtHcmVlbiBDb21wb25lbnQmbHQ7
-				L2tleSZndDsKCQkmbHQ7cmVhbCZndDswLjY4NjI3NDUy
-				ODUwMzQxNzk3Jmx0Oy9yZWFsJmd0OwoJCSZsdDtrZXkm
-				Z3Q7UmVkIENvbXBvbmVudCZsdDsva2V5Jmd0OwoJCSZs
-				dDtyZWFsJmd0OzAuMzgwMzkyMTYzOTkxOTI4MSZsdDsv
-				cmVhbCZndDsKCSZsdDsvZGljdCZndDsKCSZsdDtrZXkm
-				Z3Q7QW5zaSAxMyBDb2xvciZsdDsva2V5Jmd0OwoJJmx0
-				O2RpY3QmZ3Q7CgkJJmx0O2tleSZndDtBbHBoYSBDb21w
-				b25lbnQmbHQ7L2tleSZndDsKCQkmbHQ7cmVhbCZndDsx
-				Jmx0Oy9yZWFsJmd0OwoJCSZsdDtrZXkmZ3Q7Qmx1ZSBD
-				b21wb25lbnQmbHQ7L2tleSZndDsKCQkmbHQ7cmVhbCZn
-				dDswLjg2NjY2NjY3NDYxMzk1MjY0Jmx0Oy9yZWFsJmd0
-				OwoJCSZsdDtrZXkmZ3Q7Q29sb3IgU3BhY2UmbHQ7L2tl
-				eSZndDsKCQkmbHQ7c3RyaW5nJmd0O3NSR0ImbHQ7L3N0
-				cmluZyZndDsKCQkmbHQ7a2V5Jmd0O0dyZWVuIENvbXBv
-				bmVudCZsdDsva2V5Jmd0OwoJCSZsdDtyZWFsJmd0OzAu
-				NDcwNTg4MjM3MDQ3MTk1NDMmbHQ7L3JlYWwmZ3Q7CgkJ
-				Jmx0O2tleSZndDtSZWQgQ29tcG9uZW50Jmx0Oy9rZXkm
-				Z3Q7CgkJJmx0O3JlYWwmZ3Q7MC43NzY0NzA2MDE1NTg2
-				ODUzJmx0Oy9yZWFsJmd0OwoJJmx0Oy9kaWN0Jmd0OwoJ
-				Jmx0O2tleSZndDtBbnNpIDE0IENvbG9yJmx0Oy9rZXkm
-				Z3Q7CgkmbHQ7ZGljdCZndDsKCQkmbHQ7a2V5Jmd0O0Fs
-				cGhhIENvbXBvbmVudCZsdDsva2V5Jmd0OwoJCSZsdDty
-				ZWFsJmd0OzEmbHQ7L3JlYWwmZ3Q7CgkJJmx0O2tleSZn
-				dDtCbHVlIENvbXBvbmVudCZsdDsva2V5Jmd0OwoJCSZs
-				dDtyZWFsJmd0OzAuNzYwNzg0MzI3OTgzODU2MiZsdDsv
-				cmVhbCZndDsKCQkmbHQ7a2V5Jmd0O0NvbG9yIFNwYWNl
-				Jmx0Oy9rZXkmZ3Q7CgkJJmx0O3N0cmluZyZndDtzUkdC
-				Jmx0Oy9zdHJpbmcmZ3Q7CgkJJmx0O2tleSZndDtHcmVl
-				biBDb21wb25lbnQmbHQ7L2tleSZndDsKCQkmbHQ7cmVh
-				bCZndDswLjcxMzcyNTUwNzI1OTM2ODkmbHQ7L3JlYWwm
-				Z3Q7CgkJJmx0O2tleSZndDtSZWQgQ29tcG9uZW50Jmx0
-				Oy9rZXkmZ3Q7CgkJJmx0O3JlYWwmZ3Q7MC4zMzcyNTQ5
-				MTE2NjExNDgwNyZsdDsvcmVhbCZndDsKCSZsdDsvZGlj
-				dCZndDsKCSZsdDtrZXkmZ3Q7QW5zaSAxNSBDb2xvciZs
-				dDsva2V5Jmd0OwoJJmx0O2RpY3QmZ3Q7CgkJJmx0O2tl
-				eSZndDtBbHBoYSBDb21wb25lbnQmbHQ7L2tleSZndDsK
-				CQkmbHQ7cmVhbCZndDsxJmx0Oy9yZWFsJmd0OwoJCSZs
-				dDtrZXkmZ3Q7Qmx1ZSBDb21wb25lbnQmbHQ7L2tleSZn
-				dDsKCQkmbHQ7cmVhbCZndDswLjc0OTAxOTYyMjgwMjcz
-				NDM4Jmx0Oy9yZWFsJmd0OwoJCSZsdDtrZXkmZ3Q7Q29s
-				b3IgU3BhY2UmbHQ7L2tleSZndDsKCQkmbHQ7c3RyaW5n
-				Jmd0O3NSR0ImbHQ7L3N0cmluZyZndDsKCQkmbHQ7a2V5
-				Jmd0O0dyZWVuIENvbXBvbmVudCZsdDsva2V5Jmd0OwoJ
-				CSZsdDtyZWFsJmd0OzAuNjk4MDM5MjMzNjg0NTM5Nzkm
-				bHQ7L3JlYWwmZ3Q7CgkJJmx0O2tleSZndDtSZWQgQ29t
-				cG9uZW50Jmx0Oy9rZXkmZ3Q7CgkJJmx0O3JlYWwmZ3Q7
-				MC42NzA1ODgyNTQ5Mjg1ODg4NyZsdDsvcmVhbCZndDsK
-				CSZsdDsvZGljdCZndDsKCSZsdDtrZXkmZ3Q7QW5zaSAy
-				IENvbG9yJmx0Oy9rZXkmZ3Q7CgkmbHQ7ZGljdCZndDsK
-				CQkmbHQ7a2V5Jmd0O0FscGhhIENvbXBvbmVudCZsdDsv
-				a2V5Jmd0OwoJCSZsdDtyZWFsJmd0OzEmbHQ7L3JlYWwm
-				Z3Q7CgkJJmx0O2tleSZndDtCbHVlIENvbXBvbmVudCZs
-				dDsva2V5Jmd0OwoJCSZsdDtyZWFsJmd0OzAuNDc0NTA5
-				ODA1NDQwOTAyNzEmbHQ7L3JlYWwmZ3Q7CgkJJmx0O2tl
-				eSZndDtDb2xvciBTcGFjZSZsdDsva2V5Jmd0OwoJCSZs
-				dDtzdHJpbmcmZ3Q7c1JHQiZsdDsvc3RyaW5nJmd0OwoJ
-				CSZsdDtrZXkmZ3Q7R3JlZW4gQ29tcG9uZW50Jmx0Oy9r
-				ZXkmZ3Q7CgkJJmx0O3JlYWwmZ3Q7MC43NjQ3MDU4OTYz
-				Nzc1NjM0OCZsdDsvcmVhbCZndDsKCQkmbHQ7a2V5Jmd0
-				O1JlZCBDb21wb25lbnQmbHQ7L2tleSZndDsKCQkmbHQ7
-				cmVhbCZndDswLjU5NjA3ODQ1NTQ0ODE1MDYzJmx0Oy9y
-				ZWFsJmd0OwoJJmx0Oy9kaWN0Jmd0OwoJJmx0O2tleSZn
-				dDtBbnNpIDMgQ29sb3ImbHQ7L2tleSZndDsKCSZsdDtk
-				aWN0Jmd0OwoJCSZsdDtrZXkmZ3Q7QWxwaGEgQ29tcG9u
-				ZW50Jmx0Oy9rZXkmZ3Q7CgkJJmx0O3JlYWwmZ3Q7MSZs
-				dDsvcmVhbCZndDsKCQkmbHQ7a2V5Jmd0O0JsdWUgQ29t
-				cG9uZW50Jmx0Oy9rZXkmZ3Q7CgkJJmx0O3JlYWwmZ3Q7
-				MC40ODIzNTI5NDIyMjgzMTcyNiZsdDsvcmVhbCZndDsK
-				CQkmbHQ7a2V5Jmd0O0NvbG9yIFNwYWNlJmx0Oy9rZXkm
-				Z3Q7CgkJJmx0O3N0cmluZyZndDtzUkdCJmx0Oy9zdHJp
-				bmcmZ3Q7CgkJJmx0O2tleSZndDtHcmVlbiBDb21wb25l
-				bnQmbHQ7L2tleSZndDsKCQkmbHQ7cmVhbCZndDswLjc1
-				Mjk0MTE5MTE5NjQ0MTY1Jmx0Oy9yZWFsJmd0OwoJCSZs
-				dDtrZXkmZ3Q7UmVkIENvbXBvbmVudCZsdDsva2V5Jmd0
-				OwoJCSZsdDtyZWFsJmd0OzAuODk4MDM5MjIxNzYzNjEw
-				ODQmbHQ7L3JlYWwmZ3Q7CgkmbHQ7L2RpY3QmZ3Q7Cgkm
-				bHQ7a2V5Jmd0O0Fuc2kgNCBDb2xvciZsdDsva2V5Jmd0
-				OwoJJmx0O2RpY3QmZ3Q7CgkJJmx0O2tleSZndDtBbHBo
-				YSBDb21wb25lbnQmbHQ7L2tleSZndDsKCQkmbHQ7cmVh
-				bCZndDsxJmx0Oy9yZWFsJmd0OwoJCSZsdDtrZXkmZ3Q7
-				Qmx1ZSBDb21wb25lbnQmbHQ7L2tleSZndDsKCQkmbHQ7
-				cmVhbCZndDswLjkzNzI1NDkwNTcwMDY4MzU5Jmx0Oy9y
-				ZWFsJmd0OwoJCSZsdDtrZXkmZ3Q7Q29sb3IgU3BhY2Um
-				bHQ7L2tleSZndDsKCQkmbHQ7c3RyaW5nJmd0O3NSR0Im
-				bHQ7L3N0cmluZyZndDsKCQkmbHQ7a2V5Jmd0O0dyZWVu
-				IENvbXBvbmVudCZsdDsva2V5Jmd0OwoJCSZsdDtyZWFs
-				Jmd0OzAuNjg2Mjc0NTI4NTAzNDE3OTcmbHQ7L3JlYWwm
-				Z3Q7CgkJJmx0O2tleSZndDtSZWQgQ29tcG9uZW50Jmx0
-				Oy9rZXkmZ3Q7CgkJJmx0O3JlYWwmZ3Q7MC4zODAzOTIx
-				NjM5OTE5MjgxJmx0Oy9yZWFsJmd0OwoJJmx0Oy9kaWN0
-				Jmd0OwoJJmx0O2tleSZndDtBbnNpIDUgQ29sb3ImbHQ7
-				L2tleSZndDsKCSZsdDtkaWN0Jmd0OwoJCSZsdDtrZXkm
-				Z3Q7QWxwaGEgQ29tcG9uZW50Jmx0Oy9rZXkmZ3Q7CgkJ
-				Jmx0O3JlYWwmZ3Q7MSZsdDsvcmVhbCZndDsKCQkmbHQ7
-				a2V5Jmd0O0JsdWUgQ29tcG9uZW50Jmx0Oy9rZXkmZ3Q7
-				CgkJJmx0O3JlYWwmZ3Q7MC44NjY2NjY2NzQ2MTM5NTI2
-				NCZsdDsvcmVhbCZndDsKCQkmbHQ7a2V5Jmd0O0NvbG9y
-				IFNwYWNlJmx0Oy9rZXkmZ3Q7CgkJJmx0O3N0cmluZyZn
-				dDtzUkdCJmx0Oy9zdHJpbmcmZ3Q7CgkJJmx0O2tleSZn
-				dDtHcmVlbiBDb21wb25lbnQmbHQ7L2tleSZndDsKCQkm
-				bHQ7cmVhbCZndDswLjQ3MDU4ODIzNzA0NzE5NTQzJmx0
-				Oy9yZWFsJmd0OwoJCSZsdDtrZXkmZ3Q7UmVkIENvbXBv
-				bmVudCZsdDsva2V5Jmd0OwoJCSZsdDtyZWFsJmd0OzAu
-				Nzc2NDcwNjAxNTU4Njg1MyZsdDsvcmVhbCZndDsKCSZs
-				dDsvZGljdCZndDsKCSZsdDtrZXkmZ3Q7QW5zaSA2IENv
-				bG9yJmx0Oy9rZXkmZ3Q7CgkmbHQ7ZGljdCZndDsKCQkm
-				bHQ7a2V5Jmd0O0FscGhhIENvbXBvbmVudCZsdDsva2V5
-				Jmd0OwoJCSZsdDtyZWFsJmd0OzEmbHQ7L3JlYWwmZ3Q7
-				CgkJJmx0O2tleSZndDtCbHVlIENvbXBvbmVudCZsdDsv
-				a2V5Jmd0OwoJCSZsdDtyZWFsJmd0OzAuNzYwNzg0MzI3
-				OTgzODU2MiZsdDsvcmVhbCZndDsKCQkmbHQ7a2V5Jmd0
-				O0NvbG9yIFNwYWNlJmx0Oy9rZXkmZ3Q7CgkJJmx0O3N0
-				cmluZyZndDtzUkdCJmx0Oy9zdHJpbmcmZ3Q7CgkJJmx0
-				O2tleSZndDtHcmVlbiBDb21wb25lbnQmbHQ7L2tleSZn
-				dDsKCQkmbHQ7cmVhbCZndDswLjcxMzcyNTUwNzI1OTM2
-				ODkmbHQ7L3JlYWwmZ3Q7CgkJJmx0O2tleSZndDtSZWQg
-				Q29tcG9uZW50Jmx0Oy9rZXkmZ3Q7CgkJJmx0O3JlYWwm
-				Z3Q7MC4zMzcyNTQ5MTE2NjExNDgwNyZsdDsvcmVhbCZn
-				dDsKCSZsdDsvZGljdCZndDsKCSZsdDtrZXkmZ3Q7QW5z
-				aSA3IENvbG9yJmx0Oy9rZXkmZ3Q7CgkmbHQ7ZGljdCZn
-				dDsKCQkmbHQ7a2V5Jmd0O0FscGhhIENvbXBvbmVudCZs
-				dDsva2V5Jmd0OwoJCSZsdDtyZWFsJmd0OzEmbHQ7L3Jl
-				YWwmZ3Q7CgkJJmx0O2tleSZndDtCbHVlIENvbXBvbmVu
-				dCZsdDsva2V5Jmd0OwoJCSZsdDtyZWFsJmd0OzAuNzQ5
-				MDE5NjIyODAyNzM0MzgmbHQ7L3JlYWwmZ3Q7CgkJJmx0
-				O2tleSZndDtDb2xvciBTcGFjZSZsdDsva2V5Jmd0OwoJ
-				CSZsdDtzdHJpbmcmZ3Q7c1JHQiZsdDsvc3RyaW5nJmd0
-				OwoJCSZsdDtrZXkmZ3Q7R3JlZW4gQ29tcG9uZW50Jmx0
-				Oy9rZXkmZ3Q7CgkJJmx0O3JlYWwmZ3Q7MC42OTgwMzky
-				MzM2ODQ1Mzk3OSZsdDsvcmVhbCZndDsKCQkmbHQ7a2V5
-				Jmd0O1JlZCBDb21wb25lbnQmbHQ7L2tleSZndDsKCQkm
-				bHQ7cmVhbCZndDswLjY3MDU4ODI1NDkyODU4ODg3Jmx0
-				Oy9yZWFsJmd0OwoJJmx0Oy9kaWN0Jmd0OwoJJmx0O2tl
-				eSZndDtBbnNpIDggQ29sb3ImbHQ7L2tleSZndDsKCSZs
-				dDtkaWN0Jmd0OwoJCSZsdDtrZXkmZ3Q7QWxwaGEgQ29t
-				cG9uZW50Jmx0Oy9rZXkmZ3Q7CgkJJmx0O3JlYWwmZ3Q7
-				MSZsdDsvcmVhbCZndDsKCQkmbHQ7a2V5Jmd0O0JsdWUg
-				Q29tcG9uZW50Jmx0Oy9rZXkmZ3Q7CgkJJmx0O3JlYWwm
-				Z3Q7MC40NjI3NDUxMDAyNTk3ODA4OCZsdDsvcmVhbCZn
-				dDsKCQkmbHQ7a2V5Jmd0O0NvbG9yIFNwYWNlJmx0Oy9r
-				ZXkmZ3Q7CgkJJmx0O3N0cmluZyZndDtzUkdCJmx0Oy9z
-				dHJpbmcmZ3Q7CgkJJmx0O2tleSZndDtHcmVlbiBDb21w
-				b25lbnQmbHQ7L2tleSZndDsKCQkmbHQ7cmVhbCZndDsw
-				LjQ2Mjc0NTEwMDI1OTc4MDg4Jmx0Oy9yZWFsJmd0OwoJ
-				CSZsdDtrZXkmZ3Q7UmVkIENvbXBvbmVudCZsdDsva2V5
-				Jmd0OwoJCSZsdDtyZWFsJmd0OzAuNDYyNzQ1MTAwMjU5
-				NzgwODgmbHQ7L3JlYWwmZ3Q7CgkmbHQ7L2RpY3QmZ3Q7
-				CgkmbHQ7a2V5Jmd0O0Fuc2kgOSBDb2xvciZsdDsva2V5
-				Jmd0OwoJJmx0O2RpY3QmZ3Q7CgkJJmx0O2tleSZndDtB
-				bHBoYSBDb21wb25lbnQmbHQ7L2tleSZndDsKCQkmbHQ7
-				cmVhbCZndDsxJmx0Oy9yZWFsJmd0OwoJCSZsdDtrZXkm
-				Z3Q7Qmx1ZSBDb21wb25lbnQmbHQ7L2tleSZndDsKCQkm
-				bHQ7cmVhbCZndDswLjQ1ODgyMzUzMTg2NjA3MzYxJmx0
-				Oy9yZWFsJmd0OwoJCSZsdDtrZXkmZ3Q7Q29sb3IgU3Bh
-				Y2UmbHQ7L2tleSZndDsKCQkmbHQ7c3RyaW5nJmd0O3NS
-				R0ImbHQ7L3N0cmluZyZndDsKCQkmbHQ7a2V5Jmd0O0dy
-				ZWVuIENvbXBvbmVudCZsdDsva2V5Jmd0OwoJCSZsdDty
-				ZWFsJmd0OzAuNDIzNTI5NDE2MzIyNzA4MTMmbHQ7L3Jl
-				YWwmZ3Q7CgkJJmx0O2tleSZndDtSZWQgQ29tcG9uZW50
-				Jmx0Oy9rZXkmZ3Q7CgkJJmx0O3JlYWwmZ3Q7MC44Nzg0
-				MzEzNzk3OTUwNzQ0NiZsdDsvcmVhbCZndDsKCSZsdDsv
-				ZGljdCZndDsKCSZsdDtrZXkmZ3Q7QmFja2dyb3VuZCBD
-				b2xvciZsdDsva2V5Jmd0OwoJJmx0O2RpY3QmZ3Q7CgkJ
-				Jmx0O2tleSZndDtBbHBoYSBDb21wb25lbnQmbHQ7L2tl
-				eSZndDsKCQkmbHQ7cmVhbCZndDsxJmx0Oy9yZWFsJmd0
-				OwoJCSZsdDtrZXkmZ3Q7Qmx1ZSBDb21wb25lbnQmbHQ7
-				L2tleSZndDsKCQkmbHQ7cmVhbCZndDswLjE2ODYyNzQ1
-				NTgzMDU3NDA0Jmx0Oy9yZWFsJmd0OwoJCSZsdDtrZXkm
-				Z3Q7Q29sb3IgU3BhY2UmbHQ7L2tleSZndDsKCQkmbHQ7
-				c3RyaW5nJmd0O3NSR0ImbHQ7L3N0cmluZyZndDsKCQkm
-				bHQ7a2V5Jmd0O0dyZWVuIENvbXBvbmVudCZsdDsva2V5
-				Jmd0OwoJCSZsdDtyZWFsJmd0OzAuMTQ1MDk4MDQ1NDY4
-				MzMwMzgmbHQ7L3JlYWwmZ3Q7CgkJJmx0O2tleSZndDtS
-				ZWQgQ29tcG9uZW50Jmx0Oy9rZXkmZ3Q7CgkJJmx0O3Jl
-				YWwmZ3Q7MC4xMjk0MTE3NzE4OTM1MDEyOCZsdDsvcmVh
-				bCZndDsKCSZsdDsvZGljdCZndDsKCSZsdDtrZXkmZ3Q7
-				QmFkZ2UgQ29sb3ImbHQ7L2tleSZndDsKCSZsdDtkaWN0
-				Jmd0OwoJCSZsdDtrZXkmZ3Q7QWxwaGEgQ29tcG9uZW50
-				Jmx0Oy9rZXkmZ3Q7CgkJJmx0O3JlYWwmZ3Q7MC41Jmx0
-				Oy9yZWFsJmd0OwoJCSZsdDtrZXkmZ3Q7Qmx1ZSBDb21w
-				b25lbnQmbHQ7L2tleSZndDsKCQkmbHQ7cmVhbCZndDsw
-				LjQ1ODgyMzUzMTg2NjA3MzYxJmx0Oy9yZWFsJmd0OwoJ
-				CSZsdDtrZXkmZ3Q7Q29sb3IgU3BhY2UmbHQ7L2tleSZn
-				dDsKCQkmbHQ7c3RyaW5nJmd0O3NSR0ImbHQ7L3N0cmlu
-				ZyZndDsKCQkmbHQ7a2V5Jmd0O0dyZWVuIENvbXBvbmVu
-				dCZsdDsva2V5Jmd0OwoJCSZsdDtyZWFsJmd0OzAuNDIz
-				NTI5NDE2MzIyNzA4MTMmbHQ7L3JlYWwmZ3Q7CgkJJmx0
-				O2tleSZndDtSZWQgQ29tcG9uZW50Jmx0Oy9rZXkmZ3Q7
-				CgkJJmx0O3JlYWwmZ3Q7MC44Nzg0MzEzNzk3OTUwNzQ0
-				NiZsdDsvcmVhbCZndDsKCSZsdDsvZGljdCZndDsKCSZs
-				dDtrZXkmZ3Q7Qm9sZCBDb2xvciZsdDsva2V5Jmd0OwoJ
-				Jmx0O2RpY3QmZ3Q7CgkJJmx0O2tleSZndDtBbHBoYSBD
-				b21wb25lbnQmbHQ7L2tleSZndDsKCQkmbHQ7cmVhbCZn
-				dDsxJmx0Oy9yZWFsJmd0OwoJCSZsdDtrZXkmZ3Q7Qmx1
-				ZSBDb21wb25lbnQmbHQ7L2tleSZndDsKCQkmbHQ7cmVh
-				bCZndDswLjc0OTAxOTYyMjgwMjczNDM4Jmx0Oy9yZWFs
-				Jmd0OwoJCSZsdDtrZXkmZ3Q7Q29sb3IgU3BhY2UmbHQ7
-				L2tleSZndDsKCQkmbHQ7c3RyaW5nJmd0O3NSR0ImbHQ7
-				L3N0cmluZyZndDsKCQkmbHQ7a2V5Jmd0O0dyZWVuIENv
-				bXBvbmVudCZsdDsva2V5Jmd0OwoJCSZsdDtyZWFsJmd0
-				OzAuNjk4MDM5MjMzNjg0NTM5NzkmbHQ7L3JlYWwmZ3Q7
-				CgkJJmx0O2tleSZndDtSZWQgQ29tcG9uZW50Jmx0Oy9r
-				ZXkmZ3Q7CgkJJmx0O3JlYWwmZ3Q7MC42NzA1ODgyNTQ5
-				Mjg1ODg4NyZsdDsvcmVhbCZndDsKCSZsdDsvZGljdCZn
-				dDsKCSZsdDtrZXkmZ3Q7Q3Vyc29yIENvbG9yJmx0Oy9r
-				ZXkmZ3Q7CgkmbHQ7ZGljdCZndDsKCQkmbHQ7a2V5Jmd0
-				O0FscGhhIENvbXBvbmVudCZsdDsva2V5Jmd0OwoJCSZs
-				dDtyZWFsJmd0OzEmbHQ7L3JlYWwmZ3Q7CgkJJmx0O2tl
-				eSZndDtCbHVlIENvbXBvbmVudCZsdDsva2V5Jmd0OwoJ
-				CSZsdDtyZWFsJmd0OzAuNzQ5MDE5NjIyODAyNzM0Mzgm
-				bHQ7L3JlYWwmZ3Q7CgkJJmx0O2tleSZndDtDb2xvciBT
-				cGFjZSZsdDsva2V5Jmd0OwoJCSZsdDtzdHJpbmcmZ3Q7
-				c1JHQiZsdDsvc3RyaW5nJmd0OwoJCSZsdDtrZXkmZ3Q7
-				R3JlZW4gQ29tcG9uZW50Jmx0Oy9rZXkmZ3Q7CgkJJmx0
-				O3JlYWwmZ3Q7MC42OTgwMzkyMzM2ODQ1Mzk3OSZsdDsv
-				cmVhbCZndDsKCQkmbHQ7a2V5Jmd0O1JlZCBDb21wb25l
-				bnQmbHQ7L2tleSZndDsKCQkmbHQ7cmVhbCZndDswLjY3
-				MDU4ODI1NDkyODU4ODg3Jmx0Oy9yZWFsJmd0OwoJJmx0
-				Oy9kaWN0Jmd0OwoJJmx0O2tleSZndDtDdXJzb3IgR3Vp
-				ZGUgQ29sb3ImbHQ7L2tleSZndDsKCSZsdDtkaWN0Jmd0
-				OwoJCSZsdDtrZXkmZ3Q7QWxwaGEgQ29tcG9uZW50Jmx0
-				Oy9rZXkmZ3Q7CgkJJmx0O3JlYWwmZ3Q7MC4xNzY0NzA1
-				ODgyMzUyOTQxMyZsdDsvcmVhbCZndDsKCQkmbHQ7a2V5
-				Jmd0O0JsdWUgQ29tcG9uZW50Jmx0Oy9rZXkmZ3Q7CgkJ
-				Jmx0O3JlYWwmZ3Q7MC43NDkwMTk2MjI4MDI3MzQzOCZs
-				dDsvcmVhbCZndDsKCQkmbHQ7a2V5Jmd0O0NvbG9yIFNw
-				YWNlJmx0Oy9rZXkmZ3Q7CgkJJmx0O3N0cmluZyZndDtz
-				UkdCJmx0Oy9zdHJpbmcmZ3Q7CgkJJmx0O2tleSZndDtH
-				cmVlbiBDb21wb25lbnQmbHQ7L2tleSZndDsKCQkmbHQ7
-				cmVhbCZndDswLjY5ODAzOTIzMzY4NDUzOTc5Jmx0Oy9y
-				ZWFsJmd0OwoJCSZsdDtrZXkmZ3Q7UmVkIENvbXBvbmVu
-				dCZsdDsva2V5Jmd0OwoJCSZsdDtyZWFsJmd0OzAuNjcw
-				NTg4MjU0OTI4NTg4ODcmbHQ7L3JlYWwmZ3Q7CgkmbHQ7
-				L2RpY3QmZ3Q7CgkmbHQ7a2V5Jmd0O0N1cnNvciBUZXh0
-				IENvbG9yJmx0Oy9rZXkmZ3Q7CgkmbHQ7ZGljdCZndDsK
-				CQkmbHQ7a2V5Jmd0O0FscGhhIENvbXBvbmVudCZsdDsv
-				a2V5Jmd0OwoJCSZsdDtyZWFsJmd0OzEmbHQ7L3JlYWwm
-				Z3Q7CgkJJmx0O2tleSZndDtCbHVlIENvbXBvbmVudCZs
-				dDsva2V5Jmd0OwoJCSZsdDtyZWFsJmd0OzAuNzQ5MDE5
-				NjIyODAyNzM0MzgmbHQ7L3JlYWwmZ3Q7CgkJJmx0O2tl
-				eSZndDtDb2xvciBTcGFjZSZsdDsva2V5Jmd0OwoJCSZs
-				dDtzdHJpbmcmZ3Q7c1JHQiZsdDsvc3RyaW5nJmd0OwoJ
-				CSZsdDtrZXkmZ3Q7R3JlZW4gQ29tcG9uZW50Jmx0Oy9r
-				ZXkmZ3Q7CgkJJmx0O3JlYWwmZ3Q7MC42OTgwMzkyMzM2
-				ODQ1Mzk3OSZsdDsvcmVhbCZndDsKCQkmbHQ7a2V5Jmd0
-				O1JlZCBDb21wb25lbnQmbHQ7L2tleSZndDsKCQkmbHQ7
-				cmVhbCZndDswLjY3MDU4ODI1NDkyODU4ODg3Jmx0Oy9y
-				ZWFsJmd0OwoJJmx0Oy9kaWN0Jmd0OwoJJmx0O2tleSZn
-				dDtGb3JlZ3JvdW5kIENvbG9yJmx0Oy9rZXkmZ3Q7Cgkm
-				bHQ7ZGljdCZndDsKCQkmbHQ7a2V5Jmd0O0FscGhhIENv
-				bXBvbmVudCZsdDsva2V5Jmd0OwoJCSZsdDtyZWFsJmd0
-				OzEmbHQ7L3JlYWwmZ3Q7CgkJJmx0O2tleSZndDtCbHVl
-				IENvbXBvbmVudCZsdDsva2V5Jmd0OwoJCSZsdDtyZWFs
-				Jmd0OzAuNzQ5MDE5NjIyODAyNzM0MzgmbHQ7L3JlYWwm
-				Z3Q7CgkJJmx0O2tleSZndDtDb2xvciBTcGFjZSZsdDsv
-				a2V5Jmd0OwoJCSZsdDtzdHJpbmcmZ3Q7c1JHQiZsdDsv
-				c3RyaW5nJmd0OwoJCSZsdDtrZXkmZ3Q7R3JlZW4gQ29t
-				cG9uZW50Jmx0Oy9rZXkmZ3Q7CgkJJmx0O3JlYWwmZ3Q7
-				MC42OTgwMzkyMzM2ODQ1Mzk3OSZsdDsvcmVhbCZndDsK
-				CQkmbHQ7a2V5Jmd0O1JlZCBDb21wb25lbnQmbHQ7L2tl
-				eSZndDsKCQkmbHQ7cmVhbCZndDswLjY3MDU4ODI1NDky
-				ODU4ODg3Jmx0Oy9yZWFsJmd0OwoJJmx0Oy9kaWN0Jmd0
-				OwoJJmx0O2tleSZndDtMaW5rIENvbG9yJmx0Oy9rZXkm
-				Z3Q7CgkmbHQ7ZGljdCZndDsKCQkmbHQ7a2V5Jmd0O0Fs
-				cGhhIENvbXBvbmVudCZsdDsva2V5Jmd0OwoJCSZsdDty
-				ZWFsJmd0OzEmbHQ7L3JlYWwmZ3Q7CgkJJmx0O2tleSZn
-				dDtCbHVlIENvbXBvbmVudCZsdDsva2V5Jmd0OwoJCSZs
-				dDtyZWFsJmd0OzAuOTM3MjU0OTA1NzAwNjgzNTkmbHQ7
-				L3JlYWwmZ3Q7CgkJJmx0O2tleSZndDtDb2xvciBTcGFj
-				ZSZsdDsva2V5Jmd0OwoJCSZsdDtzdHJpbmcmZ3Q7c1JH
-				QiZsdDsvc3RyaW5nJmd0OwoJCSZsdDtrZXkmZ3Q7R3Jl
-				ZW4gQ29tcG9uZW50Jmx0Oy9rZXkmZ3Q7CgkJJmx0O3Jl
-				YWwmZ3Q7MC42ODYyNzQ1Mjg1MDM0MTc5NyZsdDsvcmVh
-				bCZndDsKCQkmbHQ7a2V5Jmd0O1JlZCBDb21wb25lbnQm
-				bHQ7L2tleSZndDsKCQkmbHQ7cmVhbCZndDswLjM4MDM5
-				MjE2Mzk5MTkyODEmbHQ7L3JlYWwmZ3Q7CgkmbHQ7L2Rp
-				Y3QmZ3Q7CgkmbHQ7a2V5Jmd0O1NlbGVjdGVkIFRleHQg
-				Q29sb3ImbHQ7L2tleSZndDsKCSZsdDtkaWN0Jmd0OwoJ
-				CSZsdDtrZXkmZ3Q7QWxwaGEgQ29tcG9uZW50Jmx0Oy9r
-				ZXkmZ3Q7CgkJJmx0O3JlYWwmZ3Q7MSZsdDsvcmVhbCZn
-				dDsKCQkmbHQ7a2V5Jmd0O0JsdWUgQ29tcG9uZW50Jmx0
-				Oy9rZXkmZ3Q7CgkJJmx0O3JlYWwmZ3Q7MC43NDkwMTk2
-				MjI4MDI3MzQzOCZsdDsvcmVhbCZndDsKCQkmbHQ7a2V5
-				Jmd0O0NvbG9yIFNwYWNlJmx0Oy9rZXkmZ3Q7CgkJJmx0
-				O3N0cmluZyZndDtzUkdCJmx0Oy9zdHJpbmcmZ3Q7CgkJ
-				Jmx0O2tleSZndDtHcmVlbiBDb21wb25lbnQmbHQ7L2tl
-				eSZndDsKCQkmbHQ7cmVhbCZndDswLjY5ODAzOTIzMzY4
-				NDUzOTc5Jmx0Oy9yZWFsJmd0OwoJCSZsdDtrZXkmZ3Q7
-				UmVkIENvbXBvbmVudCZsdDsva2V5Jmd0OwoJCSZsdDty
-				ZWFsJmd0OzAuNjcwNTg4MjU0OTI4NTg4ODcmbHQ7L3Jl
-				YWwmZ3Q7CgkmbHQ7L2RpY3QmZ3Q7CgkmbHQ7a2V5Jmd0
-				O1NlbGVjdGlvbiBDb2xvciZsdDsva2V5Jmd0OwoJJmx0
-				O2RpY3QmZ3Q7CgkJJmx0O2tleSZndDtBbHBoYSBDb21w
-				b25lbnQmbHQ7L2tleSZndDsKCQkmbHQ7cmVhbCZndDsx
-				Jmx0Oy9yZWFsJmd0OwoJCSZsdDtrZXkmZ3Q7Qmx1ZSBD
-				b21wb25lbnQmbHQ7L2tleSZndDsKCQkmbHQ7cmVhbCZn
-				dDswLjI2NjY2NjY4MDU3NDQxNzExJmx0Oy9yZWFsJmd0
-				OwoJCSZsdDtrZXkmZ3Q7Q29sb3IgU3BhY2UmbHQ7L2tl
-				eSZndDsKCQkmbHQ7c3RyaW5nJmd0O3NSR0ImbHQ7L3N0
-				cmluZyZndDsKCQkmbHQ7a2V5Jmd0O0dyZWVuIENvbXBv
-				bmVudCZsdDsva2V5Jmd0OwoJCSZsdDtyZWFsJmd0OzAu
-				MjE5NjA3ODQ0OTQ4NzY4NjImbHQ7L3JlYWwmZ3Q7CgkJ
-				Jmx0O2tleSZndDtSZWQgQ29tcG9uZW50Jmx0Oy9rZXkm
-				Z3Q7CgkJJmx0O3JlYWwmZ3Q7MC4xOTYwNzg0MzQ1ODY1
-				MjQ5NiZsdDsvcmVhbCZndDsKCSZsdDsvZGljdCZndDsK
-				Jmx0Oy9kaWN0Jmd0OwombHQ7L3BsaXN0Jmd0Owo8L3By
-				ZT48L2JvZHk+PC9odG1sPg==
-				</data>
-				<key>WebResourceFrameName</key>
-				<string></string>
-				<key>WebResourceMIMEType</key>
-				<string>text/plain</string>
-				<key>WebResourceTextEncodingName</key>
-				<string>UTF-8</string>
-				<key>WebResourceURL</key>
-				<string>https://raw.githubusercontent.com/one-dark/iterm-one-dark-theme/main/One%20Dark.itermcolors</string>
-			</dict>
-		</dict>
-		<key>ToyChest</key>
-		<dict>
-			<key>WebMainResource</key>
-			<dict>
-				<key>WebResourceData</key>
-				<data>
-				PGh0bWw+PGhlYWQ+PC9oZWFkPjxib2R5PjxwcmUgc3R5
-				bGU9IndvcmQtd3JhcDogYnJlYWstd29yZDsgd2hpdGUt
-				c3BhY2U6IHByZS13cmFwOyI+Jmx0Oz94bWwgdmVyc2lv
-				bj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPyZndDsKJmx0
-				OyFET0NUWVBFIHBsaXN0IFBVQkxJQyAiLS8vQXBwbGUv
-				L0RURCBQTElTVCAxLjAvL0VOIiAiaHR0cDovL3d3dy5h
-				cHBsZS5jb20vRFREcy9Qcm9wZXJ0eUxpc3QtMS4wLmR0
-				ZCImZ3Q7CiZsdDtwbGlzdCB2ZXJzaW9uPSIxLjAiJmd0
-				OwombHQ7ZGljdCZndDsKCSZsdDtrZXkmZ3Q7QW5zaSAw
-				IENvbG9yJmx0Oy9rZXkmZ3Q7CgkmbHQ7ZGljdCZndDsK
-				CQkmbHQ7a2V5Jmd0O0JsdWUgQ29tcG9uZW50Jmx0Oy9r
-				ZXkmZ3Q7CgkJJmx0O3JlYWwmZ3Q7MC4zNDQzMzczNzM5
-				NzE5MzkwOSZsdDsvcmVhbCZndDsKCQkmbHQ7a2V5Jmd0
-				O0dyZWVuIENvbXBvbmVudCZsdDsva2V5Jmd0OwoJCSZs
-				dDtyZWFsJmd0OzAuMjQ3MjgzMjM1MTkyMjk4ODkmbHQ7
-				L3JlYWwmZ3Q7CgkJJmx0O2tleSZndDtSZWQgQ29tcG9u
-				ZW50Jmx0Oy9rZXkmZ3Q7CgkJJmx0O3JlYWwmZ3Q7MC4x
-				NzQ1MDcwMzY4MDUxNTI4OSZsdDsvcmVhbCZndDsKCSZs
-				dDsvZGljdCZndDsKCSZsdDtrZXkmZ3Q7QW5zaSAxIENv
-				bG9yJmx0Oy9rZXkmZ3Q7CgkmbHQ7ZGljdCZndDsKCQkm
-				bHQ7a2V5Jmd0O0JsdWUgQ29tcG9uZW50Jmx0Oy9rZXkm
-				Z3Q7CgkJJmx0O3JlYWwmZ3Q7MC4xNTAwMjk0MjA4NTI2
-				NjExMyZsdDsvcmVhbCZndDsKCQkmbHQ7a2V5Jmd0O0dy
-				ZWVuIENvbXBvbmVudCZsdDsva2V5Jmd0OwoJCSZsdDty
-				ZWFsJmd0OzAuMTc2OTEzNDEwNDI1MTg2MTYmbHQ7L3Jl
-				YWwmZ3Q7CgkJJmx0O2tleSZndDtSZWQgQ29tcG9uZW50
-				Jmx0Oy9rZXkmZ3Q7CgkJJmx0O3JlYWwmZ3Q7MC43NDU5
-				Njc3NDU3ODA5NDQ4MiZsdDsvcmVhbCZndDsKCSZsdDsv
-				ZGljdCZndDsKCSZsdDtrZXkmZ3Q7QW5zaSAxMCBDb2xv
-				ciZsdDsva2V5Jmd0OwoJJmx0O2RpY3QmZ3Q7CgkJJmx0
-				O2tleSZndDtCbHVlIENvbXBvbmVudCZsdDsva2V5Jmd0
-				OwoJCSZsdDtyZWFsJmd0OzAuNDgzODY2MjE0NzUyMTk3
-				MjcmbHQ7L3JlYWwmZ3Q7CgkJJmx0O2tleSZndDtHcmVl
-				biBDb21wb25lbnQmbHQ7L2tleSZndDsKCQkmbHQ7cmVh
-				bCZndDswLjgxNDY5NzA4NjgxMTA2NTY3Jmx0Oy9yZWFs
-				Jmd0OwoJCSZsdDtrZXkmZ3Q7UmVkIENvbXBvbmVudCZs
-				dDsva2V5Jmd0OwoJCSZsdDtyZWFsJmd0OzAuMTkxNTU1
-				Mjc2NTEzMDk5NjcmbHQ7L3JlYWwmZ3Q7CgkmbHQ7L2Rp
-				Y3QmZ3Q7CgkmbHQ7a2V5Jmd0O0Fuc2kgMTEgQ29sb3Im
-				bHQ7L2tleSZndDsKCSZsdDtkaWN0Jmd0OwoJCSZsdDtr
-				ZXkmZ3Q7Qmx1ZSBDb21wb25lbnQmbHQ7L2tleSZndDsK
-				CQkmbHQ7cmVhbCZndDswLjI5NTgxNDc4MjM4MTA1Nzc0
-				Jmx0Oy9yZWFsJmd0OwoJCSZsdDtrZXkmZ3Q7R3JlZW4g
-				Q29tcG9uZW50Jmx0Oy9rZXkmZ3Q7CgkJJmx0O3JlYWwm
-				Z3Q7MC44NDcwNDQyODkxMTIwOTEwNiZsdDsvcmVhbCZn
-				dDsKCQkmbHQ7a2V5Jmd0O1JlZCBDb21wb25lbnQmbHQ7
-				L2tleSZndDsKCQkmbHQ7cmVhbCZndDswLjkwNjAwNjM5
-				NTgxNjgwMjk4Jmx0Oy9yZWFsJmd0OwoJJmx0Oy9kaWN0
-				Jmd0OwoJJmx0O2tleSZndDtBbnNpIDEyIENvbG9yJmx0
-				Oy9rZXkmZ3Q7CgkmbHQ7ZGljdCZndDsKCQkmbHQ7a2V5
-				Jmd0O0JsdWUgQ29tcG9uZW50Jmx0Oy9rZXkmZ3Q7CgkJ
-				Jmx0O3JlYWwmZ3Q7MC44NTMxMDcwOTQ3NjQ3MDk0NyZs
-				dDsvcmVhbCZndDsKCQkmbHQ7a2V5Jmd0O0dyZWVuIENv
-				bXBvbmVudCZsdDsva2V5Jmd0OwoJCSZsdDtyZWFsJmd0
-				OzAuNjQ5OTIxODM0NDY4ODQxNTUmbHQ7L3JlYWwmZ3Q7
-				CgkJJmx0O2tleSZndDtSZWQgQ29tcG9uZW50Jmx0Oy9r
-				ZXkmZ3Q7CgkJJmx0O3JlYWwmZ3Q7MC4yMDI2MDcxMTAx
-				NDI3MDc4MiZsdDsvcmVhbCZndDsKCSZsdDsvZGljdCZn
-				dDsKCSZsdDtrZXkmZ3Q7QW5zaSAxMyBDb2xvciZsdDsv
-				a2V5Jmd0OwoJJmx0O2RpY3QmZ3Q7CgkJJmx0O2tleSZn
-				dDtCbHVlIENvbXBvbmVudCZsdDsva2V5Jmd0OwoJCSZs
-				dDtyZWFsJmd0OzAuODYyODkzMTA0NTUzMjIyNjYmbHQ7
-				L3JlYWwmZ3Q7CgkJJmx0O2tleSZndDtHcmVlbiBDb21w
-				b25lbnQmbHQ7L2tleSZndDsKCQkmbHQ7cmVhbCZndDsw
-				LjQyMTA3Mzc2NDU2MjYwNjgxJmx0Oy9yZWFsJmd0OwoJ
-				CSZsdDtrZXkmZ3Q7UmVkIENvbXBvbmVudCZsdDsva2V5
-				Jmd0OwoJCSZsdDtyZWFsJmd0OzAuNjgxMDI2NTc3OTQ5
-				NTIzOTMmbHQ7L3JlYWwmZ3Q7CgkmbHQ7L2RpY3QmZ3Q7
-				CgkmbHQ7a2V5Jmd0O0Fuc2kgMTQgQ29sb3ImbHQ7L2tl
-				eSZndDsKCSZsdDtkaWN0Jmd0OwoJCSZsdDtrZXkmZ3Q7
-				Qmx1ZSBDb21wb25lbnQmbHQ7L2tleSZndDsKCQkmbHQ7
-				cmVhbCZndDswLjY4MjE0MjQzNjUwNDM2NDAxJmx0Oy9y
-				ZWFsJmd0OwoJCSZsdDtrZXkmZ3Q7R3JlZW4gQ29tcG9u
-				ZW50Jmx0Oy9rZXkmZ3Q7CgkJJmx0O3JlYWwmZ3Q7MC43
-				NjUyODkwNjgyMjIwNDU5Jmx0Oy9yZWFsJmd0OwoJCSZs
-				dDtrZXkmZ3Q7UmVkIENvbXBvbmVudCZsdDsva2V5Jmd0
-				OwoJCSZsdDtyZWFsJmd0OzAuMjU4Nzc5NzY0MTc1NDE1
-				MDQmbHQ7L3JlYWwmZ3Q7CgkmbHQ7L2RpY3QmZ3Q7Cgkm
-				bHQ7a2V5Jmd0O0Fuc2kgMTUgQ29sb3ImbHQ7L2tleSZn
-				dDsKCSZsdDtkaWN0Jmd0OwoJCSZsdDtrZXkmZ3Q7Qmx1
-				ZSBDb21wb25lbnQmbHQ7L2tleSZndDsKCQkmbHQ7cmVh
-				bCZndDswLjgzNTEzNzg0NDA4NTY5MzM2Jmx0Oy9yZWFs
-				Jmd0OwoJCSZsdDtrZXkmZ3Q7R3JlZW4gQ29tcG9uZW50
-				Jmx0Oy9rZXkmZ3Q7CgkJJmx0O3JlYWwmZ3Q7MC44MzUx
-				MjM2NTgxODAyMzY4MiZsdDsvcmVhbCZndDsKCQkmbHQ7
-				a2V5Jmd0O1JlZCBDb21wb25lbnQmbHQ7L2tleSZndDsK
-				CQkmbHQ7cmVhbCZndDswLjgzNTE0ODY5MjEzMTA0MjQ4
-				Jmx0Oy9yZWFsJmd0OwoJJmx0Oy9kaWN0Jmd0OwoJJmx0
-				O2tleSZndDtBbnNpIDIgQ29sb3ImbHQ7L2tleSZndDsK
-				CSZsdDtkaWN0Jmd0OwoJCSZsdDtrZXkmZ3Q7Qmx1ZSBD
-				b21wb25lbnQmbHQ7L2tleSZndDsKCQkmbHQ7cmVhbCZn
-				dDswLjQ0NjYwMjg4MDk1NDc0MjQzJmx0Oy9yZWFsJmd0
-				OwoJCSZsdDtrZXkmZ3Q7R3JlZW4gQ29tcG9uZW50Jmx0
-				Oy9rZXkmZ3Q7CgkJJmx0O3JlYWwmZ3Q7MC41Njg5OTQ3
-				NjA1MTMzMDU2NiZsdDsvcmVhbCZndDsKCQkmbHQ7a2V5
-				Jmd0O1JlZCBDb21wb25lbnQmbHQ7L2tleSZndDsKCQkm
-				bHQ7cmVhbCZndDswLjEwMTkzODAyNDE2MzI0NjE1Jmx0
-				Oy9yZWFsJmd0OwoJJmx0Oy9kaWN0Jmd0OwoJJmx0O2tl
-				eSZndDtBbnNpIDMgQ29sb3ImbHQ7L2tleSZndDsKCSZs
-				dDtkaWN0Jmd0OwoJCSZsdDtrZXkmZ3Q7Qmx1ZSBDb21w
-				b25lbnQmbHQ7L2tleSZndDsKCQkmbHQ7cmVhbCZndDsw
-				LjE1MTg3NDkxNDc2NTM1Nzk3Jmx0Oy9yZWFsJmd0OwoJ
-				CSZsdDtrZXkmZ3Q7R3JlZW4gQ29tcG9uZW50Jmx0Oy9r
-				ZXkmZ3Q7CgkJJmx0O3JlYWwmZ3Q7MC41NTcyMjc2NzEx
-				NDYzOTI4MiZsdDsvcmVhbCZndDsKCQkmbHQ7a2V5Jmd0
-				O1JlZCBDb21wb25lbnQmbHQ7L2tleSZndDsKCQkmbHQ7
-				cmVhbCZndDswLjg1NzQ3ODQzOTgwNzg5MTg1Jmx0Oy9y
-				ZWFsJmd0OwoJJmx0Oy9kaWN0Jmd0OwoJJmx0O2tleSZn
-				dDtBbnNpIDQgQ29sb3ImbHQ7L2tleSZndDsKCSZsdDtk
-				aWN0Jmd0OwoJCSZsdDtrZXkmZ3Q7Qmx1ZSBDb21wb25l
-				bnQmbHQ7L2tleSZndDsKCQkmbHQ7cmVhbCZndDswLjU4
-				ODg3ODE1NDc1NDYzODY3Jmx0Oy9yZWFsJmd0OwoJCSZs
-				dDtrZXkmZ3Q7R3JlZW4gQ29tcG9uZW50Jmx0Oy9rZXkm
-				Z3Q7CgkJJmx0O3JlYWwmZ3Q7MC4zNjUxOTg3NjEyMjQ3
-				NDY3Jmx0Oy9yZWFsJmd0OwoJCSZsdDtrZXkmZ3Q7UmVk
-				IENvbXBvbmVudCZsdDsva2V5Jmd0OwoJCSZsdDtyZWFs
-				Jmd0OzAuMTk3MDczNDg5NDI3NTY2NTMmbHQ7L3JlYWwm
-				Z3Q7CgkmbHQ7L2RpY3QmZ3Q7CgkmbHQ7a2V5Jmd0O0Fu
-				c2kgNSBDb2xvciZsdDsva2V5Jmd0OwoJJmx0O2RpY3Qm
-				Z3Q7CgkJJmx0O2tleSZndDtCbHVlIENvbXBvbmVudCZs
-				dDsva2V5Jmd0OwoJCSZsdDtyZWFsJmd0OzAuODYyNjY2
-				Nzg1NzE3MDEwNSZsdDsvcmVhbCZndDsKCQkmbHQ7a2V5
-				Jmd0O0dyZWVuIENvbXBvbmVudCZsdDsva2V5Jmd0OwoJ
-				CSZsdDtyZWFsJmd0OzAuMzY3NDYyODEzODU0MjE3NTMm
-				bHQ7L3JlYWwmZ3Q7CgkJJmx0O2tleSZndDtSZWQgQ29t
-				cG9uZW50Jmx0Oy9rZXkmZ3Q7CgkJJmx0O3JlYWwmZ3Q7
-				MC41NDIxMDM2NDgxODU3Mjk5OCZsdDsvcmVhbCZndDsK
-				CSZsdDsvZGljdCZndDsKCSZsdDtrZXkmZ3Q7QW5zaSA2
-				IENvbG9yJmx0Oy9rZXkmZ3Q7CgkmbHQ7ZGljdCZndDsK
-				CQkmbHQ7a2V5Jmd0O0JsdWUgQ29tcG9uZW50Jmx0Oy9r
-				ZXkmZ3Q7CgkJJmx0O3JlYWwmZ3Q7MC41NjE2NjQwNDQ4
-				NTcwMjUxNSZsdDsvcmVhbCZndDsKCQkmbHQ7a2V5Jmd0
-				O0dyZWVuIENvbXBvbmVudCZsdDsva2V5Jmd0OwoJCSZs
-				dDtyZWFsJmd0OzAuNjI4NjgxOTU3NzIxNzEwMjEmbHQ7
-				L3JlYWwmZ3Q7CgkJJmx0O2tleSZndDtSZWQgQ29tcG9u
-				ZW50Jmx0Oy9rZXkmZ3Q7CgkJJmx0O3JlYWwmZ3Q7MC4y
-				MDk1MjAyMzU2NTc2OTE5NiZsdDsvcmVhbCZndDsKCSZs
-				dDsvZGljdCZndDsKCSZsdDtrZXkmZ3Q7QW5zaSA3IENv
-				bG9yJmx0Oy9rZXkmZ3Q7CgkmbHQ7ZGljdCZndDsKCQkm
-				bHQ7a2V5Jmd0O0JsdWUgQ29tcG9uZW50Jmx0Oy9rZXkm
-				Z3Q7CgkJJmx0O3JlYWwmZ3Q7MC41MTI4ODMxMjY3MzU2
-				ODcyNiZsdDsvcmVhbCZndDsKCQkmbHQ7a2V5Jmd0O0dy
-				ZWVuIENvbXBvbmVudCZsdDsva2V5Jmd0OwoJCSZsdDty
-				ZWFsJmd0OzAuODE5MTg4OTUyNDQ1OTgzODkmbHQ7L3Jl
-				YWwmZ3Q7CgkJJmx0O2tleSZndDtSZWQgQ29tcG9uZW50
-				Jmx0Oy9rZXkmZ3Q7CgkJJmx0O3JlYWwmZ3Q7MC4xMzgy
-				NzcwNjg3MzQxNjkwMSZsdDsvcmVhbCZndDsKCSZsdDsv
-				ZGljdCZndDsKCSZsdDtrZXkmZ3Q7QW5zaSA4IENvbG9y
-				Jmx0Oy9rZXkmZ3Q7CgkmbHQ7ZGljdCZndDsKCQkmbHQ7
-				a2V5Jmd0O0JsdWUgQ29tcG9uZW50Jmx0Oy9rZXkmZ3Q7
-				CgkJJmx0O3JlYWwmZ3Q7MC41Mzc1MDkyNjI1NjE3OTgx
-				Jmx0Oy9yZWFsJmd0OwoJCSZsdDtrZXkmZ3Q7R3JlZW4g
-				Q29tcG9uZW50Jmx0Oy9rZXkmZ3Q7CgkJJmx0O3JlYWwm
-				Z3Q7MC40MDkyMjkzOTc3NzM3NDI2OCZsdDsvcmVhbCZn
-				dDsKCQkmbHQ7a2V5Jmd0O1JlZCBDb21wb25lbnQmbHQ7
-				L2tleSZndDsKCQkmbHQ7cmVhbCZndDswLjE5OTE3MzQ1
-				MDQ2OTk3MDcmbHQ7L3JlYWwmZ3Q7CgkmbHQ7L2RpY3Qm
-				Z3Q7CgkmbHQ7a2V5Jmd0O0Fuc2kgOSBDb2xvciZsdDsv
-				a2V5Jmd0OwoJJmx0O2RpY3QmZ3Q7CgkJJmx0O2tleSZn
-				dDtCbHVlIENvbXBvbmVudCZsdDsva2V5Jmd0OwoJCSZs
-				dDtyZWFsJmd0OzAuMjY1ODcwMzMyNzE3ODk1NTEmbHQ7
-				L3JlYWwmZ3Q7CgkJJmx0O2tleSZndDtHcmVlbiBDb21w
-				b25lbnQmbHQ7L2tleSZndDsKCQkmbHQ7cmVhbCZndDsw
-				LjM1MDk1NTU0NTkwMjI1MjImbHQ7L3JlYWwmZ3Q7CgkJ
-				Jmx0O2tleSZndDtSZWQgQ29tcG9uZW50Jmx0Oy9rZXkm
-				Z3Q7CgkJJmx0O3JlYWwmZ3Q7MC44NjgzNTE3NTc1MjYz
-				OTc3MSZsdDsvcmVhbCZndDsKCSZsdDsvZGljdCZndDsK
-				CSZsdDtrZXkmZ3Q7QmFja2dyb3VuZCBDb2xvciZsdDsv
-				a2V5Jmd0OwoJJmx0O2RpY3QmZ3Q7CgkJJmx0O2tleSZn
-				dDtCbHVlIENvbXBvbmVudCZsdDsva2V5Jmd0OwoJCSZs
-				dDtyZWFsJmd0OzAuMjkyMjc1MzY5MTY3MzI3ODgmbHQ7
-				L3JlYWwmZ3Q7CgkJJmx0O2tleSZndDtHcmVlbiBDb21w
-				b25lbnQmbHQ7L2tleSZndDsKCQkmbHQ7cmVhbCZndDsw
-				LjIxMzU2NjEzOTM0MDQwMDcmbHQ7L3JlYWwmZ3Q7CgkJ
-				Jmx0O2tleSZndDtSZWQgQ29tcG9uZW50Jmx0Oy9rZXkm
-				Z3Q7CgkJJmx0O3JlYWwmZ3Q7MC4xNDA0MTIzMzA2Mjc0
-				NDE0MSZsdDsvcmVhbCZndDsKCSZsdDsvZGljdCZndDsK
-				CSZsdDtrZXkmZ3Q7Qm9sZCBDb2xvciZsdDsva2V5Jmd0
-				OwoJJmx0O2RpY3QmZ3Q7CgkJJmx0O2tleSZndDtCbHVl
-				IENvbXBvbmVudCZsdDsva2V5Jmd0OwoJCSZsdDtyZWFs
-				Jmd0OzAuNjIzNTY1MzE2MjAwMjU2MzUmbHQ7L3JlYWwm
-				Z3Q7CgkJJmx0O2tleSZndDtHcmVlbiBDb21wb25lbnQm
-				bHQ7L2tleSZndDsKCQkmbHQ7cmVhbCZndDsxJmx0Oy9y
-				ZWFsJmd0OwoJCSZsdDtrZXkmZ3Q7UmVkIENvbXBvbmVu
-				dCZsdDsva2V5Jmd0OwoJCSZsdDtyZWFsJmd0OzAuMTY3
-				NjQ0NjA1MDQwNTUwMjMmbHQ7L3JlYWwmZ3Q7CgkmbHQ7
-				L2RpY3QmZ3Q7CgkmbHQ7a2V5Jmd0O0N1cnNvciBDb2xv
-				ciZsdDsva2V5Jmd0OwoJJmx0O2RpY3QmZ3Q7CgkJJmx0
-				O2tleSZndDtCbHVlIENvbXBvbmVudCZsdDsva2V5Jmd0
-				OwoJCSZsdDtyZWFsJmd0OzAuODM1MTM3ODQ0MDg1Njkz
-				MzYmbHQ7L3JlYWwmZ3Q7CgkJJmx0O2tleSZndDtHcmVl
-				biBDb21wb25lbnQmbHQ7L2tleSZndDsKCQkmbHQ7cmVh
-				bCZndDswLjgzNTEyMzY1ODE4MDIzNjgyJmx0Oy9yZWFs
-				Jmd0OwoJCSZsdDtrZXkmZ3Q7UmVkIENvbXBvbmVudCZs
-				dDsva2V5Jmd0OwoJCSZsdDtyZWFsJmd0OzAuODM1MTQ4
-				NjkyMTMxMDQyNDgmbHQ7L3JlYWwmZ3Q7CgkmbHQ7L2Rp
-				Y3QmZ3Q7CgkmbHQ7a2V5Jmd0O0N1cnNvciBUZXh0IENv
-				bG9yJmx0Oy9rZXkmZ3Q7CgkmbHQ7ZGljdCZndDsKCQkm
-				bHQ7a2V5Jmd0O0JsdWUgQ29tcG9uZW50Jmx0Oy9rZXkm
-				Z3Q7CgkJJmx0O3JlYWwmZ3Q7MC4xNDQyODI3NTgyMzU5
-				MzE0Jmx0Oy9yZWFsJmd0OwoJCSZsdDtrZXkmZ3Q7R3Jl
-				ZW4gQ29tcG9uZW50Jmx0Oy9rZXkmZ3Q7CgkJJmx0O3Jl
-				YWwmZ3Q7MC4xMTExNjM1MTE4NzIyOTE1NiZsdDsvcmVh
-				bCZndDsKCQkmbHQ7a2V5Jmd0O1JlZCBDb21wb25lbnQm
-				bHQ7L2tleSZndDsKCQkmbHQ7cmVhbCZndDswLjA3OTY5
-				MzcxMjI5NDEwMTcxNSZsdDsvcmVhbCZndDsKCSZsdDsv
-				ZGljdCZndDsKCSZsdDtrZXkmZ3Q7Rm9yZWdyb3VuZCBD
-				b2xvciZsdDsva2V5Jmd0OwoJJmx0O2RpY3QmZ3Q7CgkJ
-				Jmx0O2tleSZndDtCbHVlIENvbXBvbmVudCZsdDsva2V5
-				Jmd0OwoJCSZsdDtyZWFsJmd0OzAuNDgzODY2MjE0NzUy
-				MTk3MjcmbHQ7L3JlYWwmZ3Q7CgkJJmx0O2tleSZndDtH
-				cmVlbiBDb21wb25lbnQmbHQ7L2tleSZndDsKCQkmbHQ7
-				cmVhbCZndDswLjgxNDY5NzA4NjgxMTA2NTY3Jmx0Oy9y
-				ZWFsJmd0OwoJCSZsdDtrZXkmZ3Q7UmVkIENvbXBvbmVu
-				dCZsdDsva2V5Jmd0OwoJCSZsdDtyZWFsJmd0OzAuMTkx
-				NTU1Mjc2NTEzMDk5NjcmbHQ7L3JlYWwmZ3Q7CgkmbHQ7
-				L2RpY3QmZ3Q7CgkmbHQ7a2V5Jmd0O1NlbGVjdGVkIFRl
-				eHQgQ29sb3ImbHQ7L2tleSZndDsKCSZsdDtkaWN0Jmd0
-				OwoJCSZsdDtrZXkmZ3Q7Qmx1ZSBDb21wb25lbnQmbHQ7
-				L2tleSZndDsKCQkmbHQ7cmVhbCZndDswLjgzNTEzNzg0
-				NDA4NTY5MzM2Jmx0Oy9yZWFsJmd0OwoJCSZsdDtrZXkm
-				Z3Q7R3JlZW4gQ29tcG9uZW50Jmx0Oy9rZXkmZ3Q7CgkJ
-				Jmx0O3JlYWwmZ3Q7MC44MzUxMjM2NTgxODAyMzY4MiZs
-				dDsvcmVhbCZndDsKCQkmbHQ7a2V5Jmd0O1JlZCBDb21w
-				b25lbnQmbHQ7L2tleSZndDsKCQkmbHQ7cmVhbCZndDsw
-				LjgzNTE0ODY5MjEzMTA0MjQ4Jmx0Oy9yZWFsJmd0OwoJ
-				Jmx0Oy9kaWN0Jmd0OwoJJmx0O2tleSZndDtTZWxlY3Rp
-				b24gQ29sb3ImbHQ7L2tleSZndDsKCSZsdDtkaWN0Jmd0
-				OwoJCSZsdDtrZXkmZ3Q7Qmx1ZSBDb21wb25lbnQmbHQ7
-				L2tleSZndDsKCQkmbHQ7cmVhbCZndDswLjQ3OTAwNzYw
-				MTczNzk3NjA3Jmx0Oy9yZWFsJmd0OwoJCSZsdDtrZXkm
-				Z3Q7R3JlZW4gQ29tcG9uZW50Jmx0Oy9rZXkmZ3Q7CgkJ
-				Jmx0O3JlYWwmZ3Q7MC4xMjg1ODQ0NDQ1MjI4NTc2NyZs
-				dDsvcmVhbCZndDsKCQkmbHQ7a2V5Jmd0O1JlZCBDb21w
-				b25lbnQmbHQ7L2tleSZndDsKCQkmbHQ7cmVhbCZndDsw
-				LjM3NDQ1MzgxMjgzNzYwMDcxJmx0Oy9yZWFsJmd0OwoJ
-				Jmx0Oy9kaWN0Jmd0OwombHQ7L2RpY3QmZ3Q7CiZsdDsv
-				cGxpc3QmZ3Q7CjwvcHJlPjwvYm9keT48L2h0bWw+
-				</data>
-				<key>WebResourceFrameName</key>
-				<string></string>
-				<key>WebResourceMIMEType</key>
-				<string>text/plain</string>
-				<key>WebResourceTextEncodingName</key>
-				<string>UTF-8</string>
-				<key>WebResourceURL</key>
-				<string>https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/ToyChest.itermcolors</string>
-			</dict>
-		</dict>
-	</dict>
+	<key>AppleAntiAliasingThreshold</key>
+	<integer>1</integer>
+	<key>ApplePressAndHoldEnabled</key>
+	<false/>
+	<key>AppleScrollAnimationEnabled</key>
+	<integer>0</integer>
+	<key>AppleSmoothFixedFontsSizeThreshold</key>
+	<integer>1</integer>
+	<key>AppleWindowTabbingMode</key>
+	<string>manual</string>
 	<key>Default Bookmark Guid</key>
 	<string>3016490D-3AB7-46B5-AA54-5E20FE0FBEE1</string>
-	<key>EnableAPIServer</key>
-	<true/>
-	<key>EscapeShellCharsWithBackslash</key>
-	<false/>
-	<key>GlobalKeyMap</key>
-	<dict>
-		<key>0x19-0x60000</key>
-		<dict>
-			<key>Action</key>
-			<integer>39</integer>
-			<key>Text</key>
-			<string></string>
-		</dict>
-		<key>0x20-0x80000-0x31</key>
-		<dict>
-			<key>Action</key>
-			<integer>12</integer>
-			<key>Label</key>
-			<string></string>
-			<key>Text</key>
-			<string> </string>
-			<key>Version</key>
-			<integer>1</integer>
-		</dict>
-		<key>0x9-0x40000</key>
-		<dict>
-			<key>Action</key>
-			<integer>32</integer>
-			<key>Text</key>
-			<string></string>
-		</dict>
-		<key>0xf700-0x300000</key>
-		<dict>
-			<key>Action</key>
-			<integer>7</integer>
-			<key>Text</key>
-			<string></string>
-		</dict>
-		<key>0xf701-0x300000</key>
-		<dict>
-			<key>Action</key>
-			<integer>6</integer>
-			<key>Text</key>
-			<string></string>
-		</dict>
-		<key>0xf702-0x300000</key>
-		<dict>
-			<key>Action</key>
-			<integer>2</integer>
-			<key>Text</key>
-			<string></string>
-		</dict>
-		<key>0xf702-0x320000</key>
-		<dict>
-			<key>Action</key>
-			<integer>33</integer>
-			<key>Text</key>
-			<string></string>
-		</dict>
-		<key>0xf703-0x300000</key>
-		<dict>
-			<key>Action</key>
-			<integer>0</integer>
-			<key>Text</key>
-			<string></string>
-		</dict>
-		<key>0xf703-0x320000</key>
-		<dict>
-			<key>Action</key>
-			<integer>34</integer>
-			<key>Text</key>
-			<string></string>
-		</dict>
-		<key>0xf729-0x100000</key>
-		<dict>
-			<key>Action</key>
-			<integer>5</integer>
-			<key>Text</key>
-			<string></string>
-		</dict>
-		<key>0xf72b-0x100000</key>
-		<dict>
-			<key>Action</key>
-			<integer>4</integer>
-			<key>Text</key>
-			<string></string>
-		</dict>
-		<key>0xf72c-0x100000</key>
-		<dict>
-			<key>Action</key>
-			<integer>9</integer>
-			<key>Text</key>
-			<string></string>
-		</dict>
-		<key>0xf72c-0x20000</key>
-		<dict>
-			<key>Action</key>
-			<integer>9</integer>
-			<key>Text</key>
-			<string></string>
-		</dict>
-		<key>0xf72d-0x100000</key>
-		<dict>
-			<key>Action</key>
-			<integer>8</integer>
-			<key>Text</key>
-			<string></string>
-		</dict>
-		<key>0xf72d-0x20000</key>
-		<dict>
-			<key>Action</key>
-			<integer>8</integer>
-			<key>Text</key>
-			<string></string>
-		</dict>
-	</dict>
 	<key>HapticFeedbackForEsc</key>
 	<false/>
 	<key>HotkeyMigratedFromSingleToMulti</key>
@@ -809,20 +40,20 @@
 			<key>Ansi 0 Color</key>
 			<dict>
 				<key>Alpha Component</key>
-				<real>1</real>
+				<integer>1</integer>
 				<key>Blue Component</key>
-				<real>0.0</real>
+				<integer>0</integer>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.0</real>
+				<integer>0</integer>
 				<key>Red Component</key>
-				<real>0.0</real>
+				<integer>0</integer>
 			</dict>
 			<key>Ansi 1 Color</key>
 			<dict>
 				<key>Alpha Component</key>
-				<real>1</real>
+				<integer>1</integer>
 				<key>Blue Component</key>
 				<real>0.45882352941176469</real>
 				<key>Color Space</key>
@@ -835,7 +66,7 @@
 			<key>Ansi 10 Color</key>
 			<dict>
 				<key>Alpha Component</key>
-				<real>1</real>
+				<integer>1</integer>
 				<key>Blue Component</key>
 				<real>0.47450980392156861</real>
 				<key>Color Space</key>
@@ -848,7 +79,7 @@
 			<key>Ansi 11 Color</key>
 			<dict>
 				<key>Alpha Component</key>
-				<real>1</real>
+				<integer>1</integer>
 				<key>Blue Component</key>
 				<real>0.40000000000000002</real>
 				<key>Color Space</key>
@@ -861,7 +92,7 @@
 			<key>Ansi 12 Color</key>
 			<dict>
 				<key>Alpha Component</key>
-				<real>1</real>
+				<integer>1</integer>
 				<key>Blue Component</key>
 				<real>0.93725490196078431</real>
 				<key>Color Space</key>
@@ -874,7 +105,7 @@
 			<key>Ansi 13 Color</key>
 			<dict>
 				<key>Alpha Component</key>
-				<real>1</real>
+				<integer>1</integer>
 				<key>Blue Component</key>
 				<real>0.8666666666666667</real>
 				<key>Color Space</key>
@@ -887,7 +118,7 @@
 			<key>Ansi 14 Color</key>
 			<dict>
 				<key>Alpha Component</key>
-				<real>1</real>
+				<integer>1</integer>
 				<key>Blue Component</key>
 				<real>0.76078431372549016</real>
 				<key>Color Space</key>
@@ -900,20 +131,20 @@
 			<key>Ansi 15 Color</key>
 			<dict>
 				<key>Alpha Component</key>
-				<real>1</real>
+				<integer>1</integer>
 				<key>Blue Component</key>
-				<real>1</real>
+				<integer>1</integer>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>1</real>
+				<integer>1</integer>
 				<key>Red Component</key>
-				<real>1</real>
+				<integer>1</integer>
 			</dict>
 			<key>Ansi 2 Color</key>
 			<dict>
 				<key>Alpha Component</key>
-				<real>1</real>
+				<integer>1</integer>
 				<key>Blue Component</key>
 				<real>0.47450980392156861</real>
 				<key>Color Space</key>
@@ -926,7 +157,7 @@
 			<key>Ansi 3 Color</key>
 			<dict>
 				<key>Alpha Component</key>
-				<real>1</real>
+				<integer>1</integer>
 				<key>Blue Component</key>
 				<real>0.40000000000000002</real>
 				<key>Color Space</key>
@@ -939,7 +170,7 @@
 			<key>Ansi 4 Color</key>
 			<dict>
 				<key>Alpha Component</key>
-				<real>1</real>
+				<integer>1</integer>
 				<key>Blue Component</key>
 				<real>0.93725490196078431</real>
 				<key>Color Space</key>
@@ -952,7 +183,7 @@
 			<key>Ansi 5 Color</key>
 			<dict>
 				<key>Alpha Component</key>
-				<real>1</real>
+				<integer>1</integer>
 				<key>Blue Component</key>
 				<real>0.8666666666666667</real>
 				<key>Color Space</key>
@@ -965,7 +196,7 @@
 			<key>Ansi 6 Color</key>
 			<dict>
 				<key>Alpha Component</key>
-				<real>1</real>
+				<integer>1</integer>
 				<key>Blue Component</key>
 				<real>0.76078431372549016</real>
 				<key>Color Space</key>
@@ -978,7 +209,7 @@
 			<key>Ansi 7 Color</key>
 			<dict>
 				<key>Alpha Component</key>
-				<real>1</real>
+				<integer>1</integer>
 				<key>Blue Component</key>
 				<real>0.74901960784313726</real>
 				<key>Color Space</key>
@@ -991,7 +222,7 @@
 			<key>Ansi 8 Color</key>
 			<dict>
 				<key>Alpha Component</key>
-				<real>1</real>
+				<integer>1</integer>
 				<key>Blue Component</key>
 				<real>0.4392156862745098</real>
 				<key>Color Space</key>
@@ -1004,7 +235,7 @@
 			<key>Ansi 9 Color</key>
 			<dict>
 				<key>Alpha Component</key>
-				<real>1</real>
+				<integer>1</integer>
 				<key>Blue Component</key>
 				<real>0.45882352941176469</real>
 				<key>Color Space</key>
@@ -1019,7 +250,7 @@
 			<key>Background Color</key>
 			<dict>
 				<key>Alpha Component</key>
-				<real>1</real>
+				<integer>1</integer>
 				<key>Blue Component</key>
 				<real>0.20392156862745098</real>
 				<key>Color Space</key>
@@ -1036,13 +267,13 @@
 				<key>Alpha Component</key>
 				<real>0.5</real>
 				<key>Blue Component</key>
-				<real>0.0</real>
+				<integer>0</integer>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
 				<real>0.14910027384757996</real>
 				<key>Red Component</key>
-				<real>1</real>
+				<integer>1</integer>
 			</dict>
 			<key>Blinking Cursor</key>
 			<false/>
@@ -1053,7 +284,7 @@
 			<key>Bold Color</key>
 			<dict>
 				<key>Alpha Component</key>
-				<real>1</real>
+				<integer>1</integer>
 				<key>Blue Component</key>
 				<real>0.99999994039535522</real>
 				<key>Color Space</key>
@@ -1061,7 +292,7 @@
 				<key>Green Component</key>
 				<real>0.99999994039535522</real>
 				<key>Red Component</key>
-				<real>1</real>
+				<integer>1</integer>
 			</dict>
 			<key>Character Encoding</key>
 			<integer>4</integer>
@@ -1074,7 +305,7 @@
 			<key>Cursor Color</key>
 			<dict>
 				<key>Alpha Component</key>
-				<real>1</real>
+				<integer>1</integer>
 				<key>Blue Component</key>
 				<real>0.7807578444480896</real>
 				<key>Color Space</key>
@@ -1089,7 +320,7 @@
 				<key>Alpha Component</key>
 				<real>0.25</real>
 				<key>Blue Component</key>
-				<real>1</real>
+				<integer>1</integer>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
@@ -1100,7 +331,7 @@
 			<key>Cursor Text Color</key>
 			<dict>
 				<key>Alpha Component</key>
-				<real>1</real>
+				<integer>1</integer>
 				<key>Blue Component</key>
 				<real>0.99999994039535522</real>
 				<key>Color Space</key>
@@ -1108,7 +339,7 @@
 				<key>Green Component</key>
 				<real>0.99999994039535522</real>
 				<key>Red Component</key>
-				<real>1</real>
+				<integer>1</integer>
 			</dict>
 			<key>Cursor Type</key>
 			<integer>1</integer>
@@ -1131,7 +362,7 @@
 			<key>Foreground Color</key>
 			<dict>
 				<key>Alpha Component</key>
-				<real>1</real>
+				<integer>1</integer>
 				<key>Blue Component</key>
 				<real>0.80000000000000004</real>
 				<key>Color Space</key>
@@ -1144,7 +375,7 @@
 			<key>Guid</key>
 			<string>3016490D-3AB7-46B5-AA54-5E20FE0FBEE1</string>
 			<key>Horizontal Spacing</key>
-			<real>1</real>
+			<integer>1</integer>
 			<key>Idle Code</key>
 			<integer>0</integer>
 			<key>Jobs to Ignore</key>
@@ -1587,7 +818,7 @@
 			<key>Link Color</key>
 			<dict>
 				<key>Alpha Component</key>
-				<real>1</real>
+				<integer>1</integer>
 				<key>Blue Component</key>
 				<real>0.73422712087631226</real>
 				<key>Color Space</key>
@@ -1595,10 +826,10 @@
 				<key>Green Component</key>
 				<real>0.35915297269821167</real>
 				<key>Red Component</key>
-				<real>0.0</real>
+				<integer>0</integer>
 			</dict>
 			<key>Minimum Contrast</key>
-			<real>0.0</real>
+			<integer>0</integer>
 			<key>Mouse Reporting</key>
 			<true/>
 			<key>Name</key>
@@ -1608,7 +839,7 @@
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>JetBrainsMonoNerdFontComplete-Regular 14</string>
+			<string>Menlo-Regular 11</string>
 			<key>Only The Default BG Color Uses Transparency</key>
 			<true/>
 			<key>Option Key Sends</key>
@@ -1626,22 +857,22 @@
 			<key>Selected Text Color</key>
 			<dict>
 				<key>Alpha Component</key>
-				<real>1</real>
+				<integer>1</integer>
 				<key>Blue Component</key>
-				<real>0.0</real>
+				<integer>0</integer>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.0</real>
+				<integer>0</integer>
 				<key>Red Component</key>
-				<real>0.0</real>
+				<integer>0</integer>
 			</dict>
 			<key>Selection Color</key>
 			<dict>
 				<key>Alpha Component</key>
-				<real>1</real>
+				<integer>1</integer>
 				<key>Blue Component</key>
-				<real>1</real>
+				<integer>1</integer>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
@@ -1664,7 +895,7 @@
 			<key>Terminal Type</key>
 			<string>xterm-256color</string>
 			<key>Transparency</key>
-			<real>0.050041555851063832</real>
+			<real>0.050041555851063825</real>
 			<key>Unlimited Scrollback</key>
 			<true/>
 			<key>Use Bold Font</key>
@@ -1678,700 +909,11 @@
 			<key>Use Non-ASCII Font</key>
 			<false/>
 			<key>Vertical Spacing</key>
-			<real>1</real>
-			<key>Visual Bell</key>
-			<true/>
-			<key>Window Type</key>
-			<integer>0</integer>
-			<key>Working Directory</key>
-			<string>/Users/nohehf</string>
-		</dict>
-		<dict>
-			<key>ASCII Anti Aliased</key>
-			<true/>
-			<key>Ambiguous Double Width</key>
-			<false/>
-			<key>Ansi 0 Color</key>
-			<dict>
-				<key>Blue Component</key>
-				<real>0.30978869999999997</real>
-				<key>Green Component</key>
-				<real>0.30978869999999997</real>
-				<key>Red Component</key>
-				<real>0.30978869999999997</real>
-			</dict>
-			<key>Ansi 1 Color</key>
-			<dict>
-				<key>Blue Component</key>
-				<real>0.37647059999999999</real>
-				<key>Green Component</key>
-				<real>0.4235294</real>
-				<key>Red Component</key>
-				<real>1</real>
-			</dict>
-			<key>Ansi 10 Color</key>
-			<dict>
-				<key>Blue Component</key>
-				<real>0.67277030000000004</real>
-				<key>Green Component</key>
-				<real>1</real>
-				<key>Red Component</key>
-				<real>0.80941479999999999</real>
-			</dict>
-			<key>Ansi 11 Color</key>
-			<dict>
-				<key>Blue Component</key>
-				<real>0.7996491</real>
-				<key>Green Component</key>
-				<real>1</real>
-				<key>Red Component</key>
-				<real>1</real>
-			</dict>
-			<key>Ansi 12 Color</key>
-			<dict>
-				<key>Blue Component</key>
-				<real>0.9982605</real>
-				<key>Green Component</key>
-				<real>0.86277559999999998</real>
-				<key>Red Component</key>
-				<real>0.71165029999999996</real>
-			</dict>
-			<key>Ansi 13 Color</key>
-			<dict>
-				<key>Blue Component</key>
-				<real>0.99652090000000004</real>
-				<key>Green Component</key>
-				<real>0.61330589999999996</real>
-				<key>Red Component</key>
-				<real>1</real>
-			</dict>
-			<key>Ansi 14 Color</key>
-			<dict>
-				<key>Blue Component</key>
-				<real>0.99703969999999997</real>
-				<key>Green Component</key>
-				<real>0.87631029999999999</real>
-				<key>Red Component</key>
-				<real>0.87591359999999996</real>
-			</dict>
-			<key>Ansi 15 Color</key>
-			<dict>
-				<key>Blue Component</key>
-				<real>1</real>
-				<key>Green Component</key>
-				<real>1</real>
-				<key>Red Component</key>
-				<real>1</real>
-			</dict>
-			<key>Ansi 2 Color</key>
-			<dict>
-				<key>Blue Component</key>
-				<real>0.37647059999999999</real>
-				<key>Green Component</key>
-				<real>1</real>
-				<key>Red Component</key>
-				<real>0.65882350000000001</real>
-			</dict>
-			<key>Ansi 3 Color</key>
-			<dict>
-				<key>Blue Component</key>
-				<real>0.71372550000000001</real>
-				<key>Green Component</key>
-				<real>1</real>
-				<key>Red Component</key>
-				<real>1</real>
-			</dict>
-			<key>Ansi 4 Color</key>
-			<dict>
-				<key>Blue Component</key>
-				<real>0.99607840000000003</real>
-				<key>Green Component</key>
-				<real>0.79607839999999996</real>
-				<key>Red Component</key>
-				<real>0.58823530000000002</real>
-			</dict>
-			<key>Ansi 5 Color</key>
-			<dict>
-				<key>Blue Component</key>
-				<real>0.99215690000000001</real>
-				<key>Green Component</key>
-				<real>0.4509804</real>
-				<key>Red Component</key>
-				<real>1</real>
-			</dict>
-			<key>Ansi 6 Color</key>
-			<dict>
-				<key>Blue Component</key>
-				<real>0.99607840000000003</real>
-				<key>Green Component</key>
-				<real>0.77254900000000004</real>
-				<key>Red Component</key>
-				<real>0.77647060000000001</real>
-			</dict>
-			<key>Ansi 7 Color</key>
-			<dict>
-				<key>Blue Component</key>
-				<real>0.93353169999999996</real>
-				<key>Green Component</key>
-				<real>0.93353169999999996</real>
-				<key>Red Component</key>
-				<real>0.93353169999999996</real>
-			</dict>
-			<key>Ansi 8 Color</key>
-			<dict>
-				<key>Blue Component</key>
-				<real>0.4862745</real>
-				<key>Green Component</key>
-				<real>0.4862745</real>
-				<key>Red Component</key>
-				<real>0.4862745</real>
-			</dict>
-			<key>Ansi 9 Color</key>
-			<dict>
-				<key>Blue Component</key>
-				<real>0.69019609999999998</real>
-				<key>Green Component</key>
-				<real>0.71372550000000001</real>
-				<key>Red Component</key>
-				<real>1</real>
-			</dict>
-			<key>BM Growl</key>
-			<true/>
-			<key>Background Color</key>
-			<dict>
-				<key>Alpha Component</key>
-				<real>1</real>
-				<key>Blue Component</key>
-				<real>0.20392156862745098</real>
-				<key>Color Space</key>
-				<string>sRGB</string>
-				<key>Green Component</key>
-				<real>0.17254901960784313</real>
-				<key>Red Component</key>
-				<real>0.15686274509803921</real>
-			</dict>
-			<key>Background Image Location</key>
-			<string></string>
-			<key>Badge Color</key>
-			<dict>
-				<key>Alpha Component</key>
-				<real>0.5</real>
-				<key>Blue Component</key>
-				<real>0.0</real>
-				<key>Color Space</key>
-				<string>sRGB</string>
-				<key>Green Component</key>
-				<real>0.14910027384757996</real>
-				<key>Red Component</key>
-				<real>1</real>
-			</dict>
-			<key>Blend</key>
-			<real>0.5</real>
-			<key>Blinking Cursor</key>
-			<false/>
-			<key>Blur</key>
-			<true/>
-			<key>Blur Radius</key>
-			<real>23.204404920212767</real>
-			<key>Bold Color</key>
-			<dict>
-				<key>Blue Component</key>
-				<real>1</real>
-				<key>Green Component</key>
-				<real>1</real>
-				<key>Red Component</key>
-				<real>1</real>
-			</dict>
-			<key>Character Encoding</key>
-			<integer>4</integer>
-			<key>Close Sessions On End</key>
-			<true/>
-			<key>Columns</key>
-			<integer>80</integer>
-			<key>Command</key>
-			<string></string>
-			<key>Cursor Color</key>
-			<dict>
-				<key>Blue Component</key>
-				<real>0.37647059999999999</real>
-				<key>Green Component</key>
-				<real>0.64705880000000005</real>
-				<key>Red Component</key>
-				<real>1</real>
-			</dict>
-			<key>Cursor Guide Color</key>
-			<dict>
-				<key>Alpha Component</key>
-				<real>0.25</real>
-				<key>Blue Component</key>
-				<real>1</real>
-				<key>Color Space</key>
-				<string>sRGB</string>
-				<key>Green Component</key>
-				<real>0.92681378126144409</real>
-				<key>Red Component</key>
-				<real>0.70214027166366577</real>
-			</dict>
-			<key>Cursor Text Color</key>
-			<dict>
-				<key>Blue Component</key>
-				<real>1</real>
-				<key>Green Component</key>
-				<real>1</real>
-				<key>Red Component</key>
-				<real>1</real>
-			</dict>
-			<key>Cursor Type</key>
 			<integer>1</integer>
-			<key>Custom Command</key>
-			<string>No</string>
-			<key>Custom Directory</key>
-			<string>No</string>
-			<key>Default Bookmark</key>
-			<string>No</string>
-			<key>Description</key>
-			<string>Default</string>
-			<key>Disable Window Resizing</key>
-			<true/>
-			<key>Flashing Bell</key>
-			<false/>
-			<key>Foreground Color</key>
-			<dict>
-				<key>Alpha Component</key>
-				<real>1</real>
-				<key>Blue Component</key>
-				<real>0.80000000000000004</real>
-				<key>Color Space</key>
-				<string>sRGB</string>
-				<key>Green Component</key>
-				<real>0.80000000000000004</real>
-				<key>Red Component</key>
-				<real>0.80000000000000004</real>
-			</dict>
-			<key>Guid</key>
-			<string>4B5900E0-882C-4782-843A-DFA603585452</string>
-			<key>Has Hotkey</key>
-			<false/>
-			<key>Horizontal Spacing</key>
-			<real>1</real>
-			<key>HotKey Activated By Modifier</key>
-			<false/>
-			<key>HotKey Alternate Shortcuts</key>
-			<array/>
-			<key>HotKey Characters</key>
-			<string></string>
-			<key>HotKey Characters Ignoring Modifiers</key>
-			<string></string>
-			<key>HotKey Key Code</key>
-			<integer>0</integer>
-			<key>HotKey Modifier Activation</key>
-			<integer>3</integer>
-			<key>HotKey Modifier Flags</key>
-			<integer>0</integer>
-			<key>HotKey Window Animates</key>
-			<true/>
-			<key>HotKey Window AutoHides</key>
-			<true/>
-			<key>HotKey Window Dock Click Action</key>
-			<integer>0</integer>
-			<key>HotKey Window Floats</key>
-			<false/>
-			<key>HotKey Window Reopens On Activation</key>
-			<false/>
-			<key>Idle Code</key>
-			<integer>0</integer>
-			<key>Initial Use Transparency</key>
-			<true/>
-			<key>Jobs to Ignore</key>
-			<array>
-				<string>rlogin</string>
-				<string>ssh</string>
-				<string>slogin</string>
-				<string>telnet</string>
-			</array>
-			<key>Keyboard Map</key>
-			<dict>
-				<key>0x2d-0x40000</key>
-				<dict>
-					<key>Action</key>
-					<integer>11</integer>
-					<key>Text</key>
-					<string>0x1f</string>
-				</dict>
-				<key>0x32-0x40000</key>
-				<dict>
-					<key>Action</key>
-					<integer>11</integer>
-					<key>Text</key>
-					<string>0x00</string>
-				</dict>
-				<key>0x33-0x40000</key>
-				<dict>
-					<key>Action</key>
-					<integer>11</integer>
-					<key>Text</key>
-					<string>0x1b</string>
-				</dict>
-				<key>0x34-0x40000</key>
-				<dict>
-					<key>Action</key>
-					<integer>11</integer>
-					<key>Text</key>
-					<string>0x1c</string>
-				</dict>
-				<key>0x35-0x40000</key>
-				<dict>
-					<key>Action</key>
-					<integer>11</integer>
-					<key>Text</key>
-					<string>0x1d</string>
-				</dict>
-				<key>0x36-0x40000</key>
-				<dict>
-					<key>Action</key>
-					<integer>11</integer>
-					<key>Text</key>
-					<string>0x1e</string>
-				</dict>
-				<key>0x37-0x40000</key>
-				<dict>
-					<key>Action</key>
-					<integer>11</integer>
-					<key>Text</key>
-					<string>0x1f</string>
-				</dict>
-				<key>0x38-0x40000</key>
-				<dict>
-					<key>Action</key>
-					<integer>11</integer>
-					<key>Text</key>
-					<string>0x7f</string>
-				</dict>
-				<key>0x74-0x100000-0x0</key>
-				<dict>
-					<key>Action</key>
-					<integer>27</integer>
-					<key>Label</key>
-					<string></string>
-					<key>Text</key>
-					<string>4B5900E0-882C-4782-843A-DFA603585452</string>
-					<key>Version</key>
-					<integer>1</integer>
-				</dict>
-				<key>0xf700-0x220000</key>
-				<dict>
-					<key>Action</key>
-					<integer>10</integer>
-					<key>Text</key>
-					<string>[1;2A</string>
-				</dict>
-				<key>0xf700-0x240000</key>
-				<dict>
-					<key>Action</key>
-					<integer>10</integer>
-					<key>Text</key>
-					<string>[1;5A</string>
-				</dict>
-				<key>0xf700-0x260000</key>
-				<dict>
-					<key>Action</key>
-					<integer>10</integer>
-					<key>Text</key>
-					<string>[1;6A</string>
-				</dict>
-				<key>0xf700-0x280000</key>
-				<dict>
-					<key>Action</key>
-					<integer>11</integer>
-					<key>Text</key>
-					<string>0x1b 0x1b 0x5b 0x41</string>
-				</dict>
-				<key>0xf701-0x220000</key>
-				<dict>
-					<key>Action</key>
-					<integer>10</integer>
-					<key>Text</key>
-					<string>[1;2B</string>
-				</dict>
-				<key>0xf701-0x240000</key>
-				<dict>
-					<key>Action</key>
-					<integer>10</integer>
-					<key>Text</key>
-					<string>[1;5B</string>
-				</dict>
-				<key>0xf701-0x260000</key>
-				<dict>
-					<key>Action</key>
-					<integer>10</integer>
-					<key>Text</key>
-					<string>[1;6B</string>
-				</dict>
-				<key>0xf701-0x280000</key>
-				<dict>
-					<key>Action</key>
-					<integer>11</integer>
-					<key>Text</key>
-					<string>0x1b 0x1b 0x5b 0x42</string>
-				</dict>
-				<key>0xf702-0x220000</key>
-				<dict>
-					<key>Action</key>
-					<integer>10</integer>
-					<key>Text</key>
-					<string>[1;2D</string>
-				</dict>
-				<key>0xf702-0x240000</key>
-				<dict>
-					<key>Action</key>
-					<integer>10</integer>
-					<key>Text</key>
-					<string>[1;5D</string>
-				</dict>
-				<key>0xf702-0x260000</key>
-				<dict>
-					<key>Action</key>
-					<integer>10</integer>
-					<key>Text</key>
-					<string>[1;6D</string>
-				</dict>
-				<key>0xf702-0x280000</key>
-				<dict>
-					<key>Action</key>
-					<integer>11</integer>
-					<key>Text</key>
-					<string>0x1b 0x1b 0x5b 0x44</string>
-				</dict>
-				<key>0xf703-0x220000</key>
-				<dict>
-					<key>Action</key>
-					<integer>10</integer>
-					<key>Text</key>
-					<string>[1;2C</string>
-				</dict>
-				<key>0xf703-0x240000</key>
-				<dict>
-					<key>Action</key>
-					<integer>10</integer>
-					<key>Text</key>
-					<string>[1;5C</string>
-				</dict>
-				<key>0xf703-0x260000</key>
-				<dict>
-					<key>Action</key>
-					<integer>10</integer>
-					<key>Text</key>
-					<string>[1;6C</string>
-				</dict>
-				<key>0xf703-0x280000</key>
-				<dict>
-					<key>Action</key>
-					<integer>11</integer>
-					<key>Text</key>
-					<string>0x1b 0x1b 0x5b 0x43</string>
-				</dict>
-				<key>0xf704-0x20000</key>
-				<dict>
-					<key>Action</key>
-					<integer>10</integer>
-					<key>Text</key>
-					<string>[1;2P</string>
-				</dict>
-				<key>0xf705-0x20000</key>
-				<dict>
-					<key>Action</key>
-					<integer>10</integer>
-					<key>Text</key>
-					<string>[1;2Q</string>
-				</dict>
-				<key>0xf706-0x20000</key>
-				<dict>
-					<key>Action</key>
-					<integer>10</integer>
-					<key>Text</key>
-					<string>[1;2R</string>
-				</dict>
-				<key>0xf707-0x20000</key>
-				<dict>
-					<key>Action</key>
-					<integer>10</integer>
-					<key>Text</key>
-					<string>[1;2S</string>
-				</dict>
-				<key>0xf708-0x20000</key>
-				<dict>
-					<key>Action</key>
-					<integer>10</integer>
-					<key>Text</key>
-					<string>[15;2~</string>
-				</dict>
-				<key>0xf709-0x20000</key>
-				<dict>
-					<key>Action</key>
-					<integer>10</integer>
-					<key>Text</key>
-					<string>[17;2~</string>
-				</dict>
-				<key>0xf70a-0x20000</key>
-				<dict>
-					<key>Action</key>
-					<integer>10</integer>
-					<key>Text</key>
-					<string>[18;2~</string>
-				</dict>
-				<key>0xf70b-0x20000</key>
-				<dict>
-					<key>Action</key>
-					<integer>10</integer>
-					<key>Text</key>
-					<string>[19;2~</string>
-				</dict>
-				<key>0xf70c-0x20000</key>
-				<dict>
-					<key>Action</key>
-					<integer>10</integer>
-					<key>Text</key>
-					<string>[20;2~</string>
-				</dict>
-				<key>0xf70d-0x20000</key>
-				<dict>
-					<key>Action</key>
-					<integer>10</integer>
-					<key>Text</key>
-					<string>[21;2~</string>
-				</dict>
-				<key>0xf70e-0x20000</key>
-				<dict>
-					<key>Action</key>
-					<integer>10</integer>
-					<key>Text</key>
-					<string>[23;2~</string>
-				</dict>
-				<key>0xf70f-0x20000</key>
-				<dict>
-					<key>Action</key>
-					<integer>10</integer>
-					<key>Text</key>
-					<string>[24;2~</string>
-				</dict>
-				<key>0xf729-0x20000</key>
-				<dict>
-					<key>Action</key>
-					<integer>10</integer>
-					<key>Text</key>
-					<string>[1;2H</string>
-				</dict>
-				<key>0xf729-0x40000</key>
-				<dict>
-					<key>Action</key>
-					<integer>10</integer>
-					<key>Text</key>
-					<string>[1;5H</string>
-				</dict>
-				<key>0xf72b-0x20000</key>
-				<dict>
-					<key>Action</key>
-					<integer>10</integer>
-					<key>Text</key>
-					<string>[1;2F</string>
-				</dict>
-				<key>0xf72b-0x40000</key>
-				<dict>
-					<key>Action</key>
-					<integer>10</integer>
-					<key>Text</key>
-					<string>[1;5F</string>
-				</dict>
-			</dict>
-			<key>Link Color</key>
-			<dict>
-				<key>Alpha Component</key>
-				<real>1</real>
-				<key>Blue Component</key>
-				<real>0.73422712087631226</real>
-				<key>Color Space</key>
-				<string>sRGB</string>
-				<key>Green Component</key>
-				<real>0.35915297269821167</real>
-				<key>Red Component</key>
-				<real>0.0</real>
-			</dict>
-			<key>Mouse Reporting</key>
-			<true/>
-			<key>Name</key>
-			<string>Hotkey Window</string>
-			<key>Non Ascii Font</key>
-			<string>Monaco 12</string>
-			<key>Non-ASCII Anti Aliased</key>
-			<true/>
-			<key>Normal Font</key>
-			<string>MesloLGS-NF-Regular 14</string>
-			<key>Only The Default BG Color Uses Transparency</key>
-			<false/>
-			<key>Option Key Sends</key>
-			<integer>0</integer>
-			<key>Prompt Before Closing 2</key>
-			<false/>
-			<key>Right Option Key Sends</key>
-			<integer>0</integer>
-			<key>Rows</key>
-			<integer>25</integer>
-			<key>Screen</key>
-			<integer>-1</integer>
-			<key>Scrollback Lines</key>
-			<integer>1000</integer>
-			<key>Selected Text Color</key>
-			<dict>
-				<key>Blue Component</key>
-				<real>0.94760049999999996</real>
-				<key>Green Component</key>
-				<real>0.94760049999999996</real>
-				<key>Red Component</key>
-				<real>0.94760049999999996</real>
-			</dict>
-			<key>Selection Color</key>
-			<dict>
-				<key>Blue Component</key>
-				<real>0.51530609999999999</real>
-				<key>Green Component</key>
-				<real>0.22248570000000001</real>
-				<key>Red Component</key>
-				<real>0.20990739999999999</real>
-			</dict>
-			<key>Send Code When Idle</key>
-			<false/>
-			<key>Shortcut</key>
-			<string></string>
-			<key>Show Mark Indicators</key>
-			<false/>
-			<key>Silence Bell</key>
-			<false/>
-			<key>Space</key>
-			<integer>-1</integer>
-			<key>Sync Title</key>
-			<false/>
-			<key>Tags</key>
-			<array/>
-			<key>Terminal Type</key>
-			<string>xterm-256color</string>
-			<key>Transparency</key>
-			<real>0.2496592420212766</real>
-			<key>Unlimited Scrollback</key>
-			<false/>
-			<key>Use Bold Font</key>
-			<true/>
-			<key>Use Bright Bold</key>
-			<true/>
-			<key>Use Italic Font</key>
-			<true/>
-			<key>Use Non-ASCII Font</key>
-			<false/>
-			<key>Vertical Spacing</key>
-			<real>1</real>
 			<key>Visual Bell</key>
 			<true/>
 			<key>Window Type</key>
-			<integer>2</integer>
+			<integer>0</integer>
 			<key>Working Directory</key>
 			<string>/Users/nohehf</string>
 		</dict>
@@ -2379,12 +921,6 @@
 	<key>OpenArrangementAtStartup</key>
 	<false/>
 	<key>OpenNoWindowsAtStartup</key>
-	<false/>
-	<key>PasteSpecialRegex</key>
-	<string></string>
-	<key>PasteSpecialSubstitution</key>
-	<string></string>
-	<key>PasteSpecialUseRegexSubstitution</key>
 	<false/>
 	<key>PointerActions</key>
 	<dict>
@@ -2419,19 +955,9 @@
 			<string>kNextWindowPointerAction</string>
 		</dict>
 	</dict>
-	<key>Print In Black And White</key>
-	<true/>
 	<key>SoundForEsc</key>
 	<false/>
-	<key>TabStyleWithAutomaticOption</key>
-	<integer>6</integer>
 	<key>VisualIndicatorForEsc</key>
-	<false/>
-	<key>findMode_iTerm</key>
-	<integer>0</integer>
-	<key>kCPKSelectionViewPreferredModeKey</key>
-	<integer>0</integer>
-	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
 	<false/>
 </dict>
 </plist>
