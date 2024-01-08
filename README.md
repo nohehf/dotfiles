@@ -72,3 +72,9 @@ git clone https://github.com/nohehf/dotfiles.git
 brew bundle --file=~/dotfiles/Brewfile
 brew bundle --force cleanup --file=~/dotfiles/Brewfile
 ```
+
+#### Setup raycast
+
+- Disable spotlight shortcut
+- Enable raycast shortcut to `cmd + space`
+- Import `Raycast.rayconfig` in raycast settings
