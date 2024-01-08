@@ -1779,6 +1779,36 @@
         "options": {
           "full_name": "iterm2"
         }
+      },
+      "google-chrome": {
+        "version": "120.0.6099.199",
+        "options": {
+          "full_name": "google-chrome"
+        }
+      },
+      "notion": {
+        "version": "3.1.0",
+        "options": {
+          "full_name": "notion"
+        }
+      },
+      "discord": {
+        "version": "0.0.290",
+        "options": {
+          "full_name": "discord"
+        }
+      },
+      "lens": {
+        "version": "2023.12.281947",
+        "options": {
+          "full_name": "lens"
+        }
+      },
+      "slack": {
+        "version": "4.36.136",
+        "options": {
+          "full_name": "slack"
+        }
       }
     }
   },
