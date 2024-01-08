@@ -78,3 +78,5 @@ brew bundle --force cleanup --file=~/dotfiles/Brewfile
 - Disable spotlight shortcut
 - Enable raycast shortcut to `cmd + space`
 - Import `Raycast.rayconfig` in raycast settings
+
+#### Setup terminal
