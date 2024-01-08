@@ -96,3 +96,11 @@ save
 
 #### Setup terminal
 
+# Manual installs
+
+@todo
+
+# todo:
+- bitwarden cli
+- find a way to show gwip state in starship
+- manual installs

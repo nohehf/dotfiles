@@ -46,5 +46,10 @@ cask "orbstack"
 cask "raycast"
 cask "visual-studio-code"
 cask "iterm2"
+cask "google-chrome"
+cask "notion"
+cask "discord"
+cask "lens"
+cask "slack"
 # @todo more casks once stable
 # @todo vscode extensions
