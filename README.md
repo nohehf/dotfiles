@@ -51,21 +51,25 @@ killall Dock
 
 ## Devtools setup
 
-### Install developer tools
+### developer tools
 
 ```bash
 xcode-select --install
 ```
 
-### Install homebrew
+### homebrew
 
 See: [link](https://brew.sh/)
+```bash
+make brew
+```
 
-### Clone dotfiles
+### dotfiles
 
 ```bash
 cd ~
 git clone https://github.com/nohehf/dotfiles.git
+make dotfiles
 ```
 
 ### Setup keys & passwords
@@ -84,13 +88,6 @@ save
 > ⚠️ Never commit this file
 > Note: a better way of managing keys (with sub-keys would be preferable)
 
-### Install apps
-
-```bash
-brew bundle --file=~/dotfiles/Brewfile
-brew bundle --force cleanup --file=~/dotfiles/Brewfile
-```
-
 #### Setup raycast
 
 - Disable spotlight shortcut
@@ -98,3 +95,4 @@ brew bundle --force cleanup --file=~/dotfiles/Brewfile
 - Import `Raycast.rayconfig` in raycast settings
 
 #### Setup terminal
+
