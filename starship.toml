@@ -16,3 +16,6 @@ diverged = "[±${count}](purple bold)"
 renamed = "[»${count}](white)"
 stashed = "[*${count}](cyan bold)"
 untracked = "[?${count}](blue)"
+
+[git_branch]
+format = "[$symbol$branch(:$remote_branch)]($style) "
