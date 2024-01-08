@@ -39,6 +39,7 @@ brew "volta"
 brew "watch"
 brew "yt-dlp"
 brew "zsh"
+brew "zsh-syntax-highlighting"
 
 cask "fig"
 cask "orbstack"

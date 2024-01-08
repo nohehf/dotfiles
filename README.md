@@ -39,6 +39,8 @@ killall Dock
 - Set delay until repeat to 1 before fastest
 - Set keyboard brightness to 50%
 - Turn off keyboard backlight off after 5 seconds
+- In keyboard > keyboard shortcuts:
+    - Input Sources > Disable `select previous input source` -> very important as it conflicts with vscode intellisense shortcut
 
 ### Trackpad
 

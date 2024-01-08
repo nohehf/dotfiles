@@ -3,3 +3,16 @@
 
 # Inserts a blank line between shell prompts
 add_newline = false
+
+[git_status]
+ahead = "⇡${count}"
+behind = "⇣${count}"
+staged = "[+${count}](green)"
+deleted = "[✘${count}](red)"
+modified = "[!${count}](yellow)"
+conflicted = "[~${count}](red bold)"
+diverged = "⇕${count}"
+renamed = "»${count}"
+stashed = "*${count}"
+untracked = "?${count}"
+style = "white dimmed"
