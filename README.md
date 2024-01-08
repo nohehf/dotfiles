@@ -58,5 +58,13 @@ See: [link](https://brew.sh/)
 ### Clone dotfiles
 
 ```bash
-git clone https://
+cd ~
+git clone https://github.com/nohehf/dotfiles.git
+```
+
+### Install apps
+
+```bash
+brew bundle --file=~/dotfiles/Brewfile
+brew bundle --force cleanup --file=~/dotfiles/Brewfile
 ```
