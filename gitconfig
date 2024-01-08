@@ -1,0 +1,18 @@
+[user]
+	email = nohe.hinniger.foray@gmail.com
+	name = nohehf
+	signingkey = B2B8971AB0DC3F2B
+[commit]
+	gpgsign = true
+[gpg]
+	program = gpg
+[init]
+	defaultBranch = main
+[diff]
+    tool = vscode
+[difftool "vscode"]
+    cmd = code --wait --diff $LOCAL $REMOTE
+[merge]
+    tool = vscode
+[mergetool "vscode"]
+    cmd = code --wait $MERGED
