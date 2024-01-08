@@ -66,6 +66,22 @@ cd ~
 git clone https://github.com/nohehf/dotfiles.git
 ```
 
+### Setup keys & passwords
+
+## GPG
+
+Export from system 1: `gpg --armour --export-secret-keys nohehf > key`
+On system 2: 
+```sh
+gpg --import <key>
+gpg --edit-key nohehf
+trust
+5
+save
+```
+> ⚠️ Never commit this file
+> Note: a better way of managing keys (with sub-keys would be preferable)
+
 ### Install apps
 
 ```bash

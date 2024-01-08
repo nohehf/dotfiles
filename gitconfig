@@ -1,7 +1,7 @@
 [user]
 	email = nohe.hinniger.foray@gmail.com
 	name = nohehf
-	signingkey = B2B8971AB0DC3F2B
+	signingkey = nohehf
 [commit]
 	gpgsign = true
 [gpg]
