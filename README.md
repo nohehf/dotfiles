@@ -2,6 +2,10 @@
 
 Steps & files used while configuring my macbook.
 
+Sources:
+
+- <https://registerspill.thorstenball.com/p/new-year-new-job-new-machine>
+
 ## OS Settings
 
 ### General
