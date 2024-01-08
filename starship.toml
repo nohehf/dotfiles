@@ -5,14 +5,14 @@
 add_newline = false
 
 [git_status]
-ahead = "⇡${count}"
-behind = "⇣${count}"
+style = "white dimmed"
+ahead = "[⇡${count}](green bold)"
+behind = "[⇣${count}](green bold)"
 staged = "[+${count}](green)"
 deleted = "[✘${count}](red)"
 modified = "[!${count}](yellow)"
 conflicted = "[~${count}](red bold)"
-diverged = "⇕${count}"
-renamed = "»${count}"
-stashed = "*${count}"
-untracked = "?${count}"
-style = "white dimmed"
+diverged = "[±${count}](purple bold)"
+renamed = "[»${count}](white)"
+stashed = "[*${count}](cyan bold)"
+untracked = "[?${count}](blue)"
