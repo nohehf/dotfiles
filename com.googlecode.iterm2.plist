@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Default Bookmark Guid</key>
-	<string>3016490D-3AB7-46B5-AA54-5E20FE0FBEE1</string>
+	<string>6C2A63C8-7A6E-4B2E-9B41-9E14B8F4BE6E</string>
 	<key>HapticFeedbackForEsc</key>
 	<false/>
 	<key>HotkeyMigratedFromSingleToMulti</key>
@@ -363,9 +363,9 @@
 				<real>0.80000000000000004</real>
 			</dict>
 			<key>Guid</key>
-			<string>3016490D-3AB7-46B5-AA54-5E20FE0FBEE1</string>
+			<string>6C2A63C8-7A6E-4B2E-9B41-9E14B8F4BE6E</string>
 			<key>Horizontal Spacing</key>
-			<integer>1</integer>
+			<real>1</real>
 			<key>Idle Code</key>
 			<integer>0</integer>
 			<key>Jobs to Ignore</key>
@@ -823,7 +823,7 @@
 			<key>Mouse Reporting</key>
 			<true/>
 			<key>Name</key>
-			<string>Default</string>
+			<string>nohehf</string>
 			<key>Non Ascii Font</key>
 			<string>Monaco 12</string>
 			<key>Non-ASCII Anti Aliased</key>
@@ -899,7 +899,7 @@
 			<key>Use Non-ASCII Font</key>
 			<false/>
 			<key>Vertical Spacing</key>
-			<integer>1</integer>
+			<real>1</real>
 			<key>Visual Bell</key>
 			<true/>
 			<key>Window Type</key>
