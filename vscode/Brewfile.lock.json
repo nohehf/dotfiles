@@ -1,0 +1,52 @@
+{
+  "entries": {
+    "vscode": {
+      "vscode-icons-team.vscode-icons": null,
+      "Equinusocio.vsc-material-theme": null,
+      "BriteSnow.vscode-toggle-quotes": null,
+      "bufbuild.vscode-buf": null,
+      "charliermarsh.ruff": null,
+      "connor4312.nodejs-testing": null,
+      "DavidAnson.vscode-markdownlint": null,
+      "dbaeumer.vscode-eslint": null,
+      "eamodio.gitlens": null,
+      "emeraldwalk.RunOnSave": null,
+      "equinusocio.vsc-material-theme-icons": null,
+      "esbenp.prettier-vscode": null,
+      "GitHub.copilot": null,
+      "GitHub.copilot-chat": null,
+      "golang.go": null,
+      "hashicorp.terraform": null,
+      "KevinRose.vsc-python-indent": null,
+      "littlefoxteam.vscode-python-test-adapter": null,
+      "ms-python.black-formatter": null,
+      "ms-python.mypy-type-checker": null,
+      "ms-python.python": null,
+      "ms-python.vscode-pylance": null,
+      "ms-vscode.makefile-tools": null,
+      "njqdev.vscode-python-typehint": null,
+      "paul-mannino.vscode-create-test-file": null,
+      "pbkit.vscode-pbkit": null,
+      "pomdtr.excalidraw-editor": null,
+      "Prisma.prisma": null,
+      "redhat.vscode-yaml": null,
+      "ryanluker.vscode-coverage-gutters": null,
+      "svelte.svelte-vscode": null,
+      "tamasfe.even-better-toml": null,
+      "TylerHarris.terraform-link-docs": null,
+      "whizkydee.material-palenight-theme": null
+    }
+  },
+  "system": {
+    "macos": {
+      "sonoma": {
+        "HOMEBREW_VERSION": "4.2.3",
+        "HOMEBREW_PREFIX": "/opt/homebrew",
+        "Homebrew/homebrew-core": "api",
+        "CLT": "15.1.0.0.1.1700200546",
+        "Xcode": "15.1",
+        "macOS": "14.1"
+      }
+    }
+  }
+}

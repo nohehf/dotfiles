@@ -1,0 +1,21 @@
+{
+  "editor.accessibilitySupport": "off",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontFamily": "JetBrainsMonoNLNerdFont-Regular",
+  "editor.formatOnSave": true,
+  "svelte.enable-ts-plugin": true,
+  "svelte.plugin.svelte.defaultScriptLanguage": "ts",
+  "svelte.plugin.svelte.rename.enable": false,
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "workbench.colorCustomizations": {
+    "panel.border": "#363a48",
+    "sideBar.border": "#363a48",
+    "tree.indentGuidesStroke": "#8d36e9"
+  },
+  "workbench.colorTheme": "Material Theme Palenight",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.tree.indent": 15,
+  "workbench.tree.renderIndentGuides": "always"
+}

@@ -61,5 +61,6 @@ cask "lens"
 cask "slack"
 cask "bartender"
 cask "bitwarden"
+cask "datagrip"
 # @todo more casks once stable
 # @todo vscode extensions

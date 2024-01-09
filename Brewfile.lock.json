@@ -2163,7 +2163,17 @@
         "options": {
           "full_name": "bitwarden"
         }
+      },
+      "datagrip": {
+        "version": "2023.3.2,233.13135.68",
+        "options": {
+          "full_name": "datagrip"
+        }
       }
+    },
+    "vscode": {
+      "vscode-icons-team.vscode-icons": null,
+      "Equinusocio.vsc-material-theme": null
     }
   },
   "system": {
