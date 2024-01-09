@@ -104,3 +104,4 @@ save
 - bitwarden cli
 - find a way to show gwip state in starship
 - manual installs
+- synced vscode config

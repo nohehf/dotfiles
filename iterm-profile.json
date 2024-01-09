@@ -401,7 +401,7 @@
   },
   "Name" : "nohehf",
   "Blinking Cursor" : false,
-  "Guid" : "3016490D-3AB7-46B5-AA54-5E20FE0FBEE1",
+  "Guid" : "6C2A63C8-7A6E-4B2E-9B41-9E14B8F4BE6E",
   "Idle Code" : 0,
   "Ansi 10 Color" : {
     "Red Component" : 0.59607843137254901,
@@ -437,7 +437,7 @@
   "AWDS Pane Directory" : "",
   "Blur" : true,
   "Vertical Spacing" : 1,
-  "Normal Font" : "JetBrainsMonoNerdFontComplete-Regular 14",
+  "Normal Font" : "JetBrainsMonoNFM-Regular 13",
   "Ansi 7 Color" : {
     "Red Component" : 0.6705882352941176,
     "Color Space" : "sRGB",
