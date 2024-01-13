@@ -25,6 +25,13 @@ function mkcd() {
   mkdir -p $@ && cd ${@:$#}
 }
 
+# k8s
+autoload -U +X compinit && compinit
+export KUBECONFIG="${KUBECONFIG}$(find $HOME/.kube/configs -type f -exec echo -n :{} \;)"
+export KUBECONFIG="${KUBECONFIG}:$HOME/.kube/config"
+alias k=kubectl
+source <(kubectl completion zsh)
+
 # Vscode c command, opens vscode in the current directory if no argument is given else opens vscode in the given directory
 function c() {
   code ${1:-.}

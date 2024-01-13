@@ -1,8 +1,9 @@
 {
   "editor.accessibilitySupport": "off",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.fontFamily": "JetBrainsMonoNLNerdFont-Regular",
+  "editor.fontFamily": "JetBrainsMono Nerd Font",
   "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
   "svelte.enable-ts-plugin": true,
   "svelte.plugin.svelte.defaultScriptLanguage": "ts",
   "svelte.plugin.svelte.rename.enable": false,
@@ -17,5 +18,8 @@
   "workbench.colorTheme": "Material Theme Palenight",
   "workbench.iconTheme": "vscode-icons",
   "workbench.tree.indent": 15,
-  "workbench.tree.renderIndentGuides": "always"
+  "workbench.tree.renderIndentGuides": "always",
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.fontWeight": "normal",
+  "terminal.integrated.tabs.enabled": false
 }
