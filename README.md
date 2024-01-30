@@ -40,7 +40,7 @@ killall Dock
 - Set keyboard brightness to 50%
 - Turn off keyboard backlight off after 5 seconds
 - In keyboard > keyboard shortcuts:
-    - Input Sources > Disable `select previous input source` -> very important as it conflicts with vscode intellisense shortcut
+- Input Sources > Disable `select previous input source` -> very important as it conflicts with vscode intellisense shortcut
 
 ### Trackpad
 
@@ -60,6 +60,7 @@ xcode-select --install
 ### homebrew
 
 See: [link](https://brew.sh/)
+
 ```bash
 make brew
 ```
@@ -77,7 +78,8 @@ make dotfiles
 ## GPG
 
 Export from system 1: `gpg --armour --export-secret-keys nohehf > key`
-On system 2: 
+On system 2:
+
 ```sh
 gpg --import <key>
 gpg --edit-key nohehf
@@ -85,6 +87,7 @@ trust
 5
 save
 ```
+
 > ⚠️ Never commit this file
 > Note: a better way of managing keys (with sub-keys would be preferable)
 
@@ -101,6 +104,7 @@ save
 @todo
 
 # todo:
+
 - bitwarden cli
 - find a way to show gwip state in starship
 - manual installs
