@@ -43,3 +43,5 @@ installBin "cargo" "Rust (via rustup)" && curl --proto '=https' --tlsv1.2 -sSf h
 # Nix via determinate systems nix installer
 # TODO: remove nix if not used more
 installBin "nix" && curl --proto '=https' --tlsv1.2 -sSf -L https://install.determinate.systems/nix | sh -s -- install
+
+exit 0
