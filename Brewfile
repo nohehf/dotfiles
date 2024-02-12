@@ -24,6 +24,8 @@ brew "make"
 brew "neofetch"
 brew "nginx"
 brew "nmap"
+brew "opam" # caml
+brew "wireguard-tools"
 brew "openssl"
 brew "oven-sh/bun/bun"
 brew "pipx"

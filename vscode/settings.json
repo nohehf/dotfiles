@@ -21,5 +21,6 @@
   "workbench.tree.renderIndentGuides": "always",
   "terminal.integrated.fontSize": 12,
   "terminal.integrated.fontWeight": "normal",
-  "terminal.integrated.tabs.enabled": false
+  "terminal.integrated.tabs.enabled": false,
+  "git.confirmSync": false
 }
