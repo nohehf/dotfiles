@@ -22,5 +22,11 @@
   "terminal.integrated.fontSize": 12,
   "terminal.integrated.fontWeight": "normal",
   "terminal.integrated.tabs.enabled": false,
-  "git.confirmSync": false
+  "git.confirmSync": false,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  }
 }

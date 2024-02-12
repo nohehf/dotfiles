@@ -51,25 +51,41 @@ killall Dock
 
 ## Devtools setup
 
+```bash
+cd ~
+git clone https://github.com/nohehf/dotfiles.git
+```
+
 ### developer tools
 
 ```bash
 xcode-select --install
 ```
 
+### non homebrew installs
+
+This script will install necessary tools for this to work + some dependencies I want to manage outside of brew.
+It is usefull for package managers, brew itself...
+
+```bash
+sh install.sh
+```
+
 ### homebrew
 
-See: [link](https://brew.sh/)
+Now that brew is installed, run
 
 ```bash
 make brew
 ```
 
+to install all brew dependencies as specified in `Brewfile` (and vscode extensions in `vscode/Brewfile`)
+
 ### dotfiles
 
+This command will create symlinks between the files in this repo to `~.dotfile-name`
+
 ```bash
-cd ~
-git clone https://github.com/nohehf/dotfiles.git
 make dotfiles
 ```
 
@@ -89,6 +105,7 @@ save
 ```
 
 > ⚠️ Never commit this file
+
 > Note: a better way of managing keys (with sub-keys would be preferable)
 
 #### Setup raycast
@@ -98,10 +115,6 @@ save
 - Import `Raycast.rayconfig` in raycast settings
 
 #### Setup terminal
-
-# Manual installs
-
-@todo
 
 # todo:
 

@@ -27,3 +27,7 @@ brew:
 	brew bundle --file=$(DOTFILE_PATH)/Brewfile
 	brew bundle --force cleanup --file=$(DOTFILE_PATH)/Brewfile
 	brew bundle --file=$(DOTFILE_PATH)/vscode/Brewfile
+
+.PHONY: install
+install:
+	install.sh
