@@ -71,6 +71,12 @@ It is usefull for package managers, brew itself...
 sh install.sh
 ```
 
+Then to install all, simply run
+
+```bash
+just
+```
+
 ### homebrew
 
 Now that brew is installed, run

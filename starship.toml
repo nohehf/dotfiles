@@ -4,6 +4,8 @@
 # Inserts a blank line between shell prompts
 add_newline = false
 
+command_timeout = 2000
+
 # Missing features: zsh transient prompt, git wip indicator 
 # discussion on transient prompt: https://github.com/spaceship-prompt/spaceship-prompt/issues/775#issuecomment-977161851, https://github.com/romkatv/powerlevel10k/issues/888#issuecomment-657969840
 
@@ -27,6 +29,22 @@ version_format = "${major}.${minor}.${patch}"
 symbol = "[~](white dimmed)"
 format = '[$symbol($version )]($style)'
 version_format = "${major}.${minor}.${patch}"
+
+[rust]
+symbol = "[~](white dimmed)"
+format = '[$symbol($version )]($style)'
+version_format = "${major}.${minor}.${patch}"
+
+[ocaml]
+symbol = "🐫[~](white dimmed)"
+format = '[$symbol($version )]($style)'
+version_format = "${major}.${minor}.${patch}"
+
+[c]
+symbol = "c[~](white dimmed)"
+format = '[$symbol($version )]($style)'
+version_format = "${major}.${minor}.${patch}"
+style = "blue bold"
 
 [aws]
 disabled = true
