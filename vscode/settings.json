@@ -1,15 +1,60 @@
 {
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "[ocaml]": {
+    "editor.defaultFormatter": "ocamllabs.ocaml-platform"
+  },
+  "[python]": {
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.formatOnType": true,
+    "editor.wordBasedSuggestions": "off",
+    "gitlens.codeLens.symbolScopes": ["!Module"]
+  },
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
   "editor.accessibilitySupport": "off",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "JetBrainsMono Nerd Font",
   "editor.formatOnSave": true,
   "editor.minimap.enabled": false,
+  "editor.unicodeHighlight.allowedCharacters": {
+    "é": true
+  },
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "git.confirmSync": false,
+  "github.copilot.enable": {
+    "*": false,
+    "markdown": false,
+    "plaintext": false,
+    "scminput": false
+  },
+  "java.completion.favoriteStaticMembers": [
+    "org.junit.Assert.*",
+    "org.junit.Assume.*",
+    "org.junit.jupiter.api.Assertions.*",
+    "org.junit.jupiter.api.Assumptions.*",
+    "org.junit.jupiter.api.DynamicContainer.*",
+    "org.junit.jupiter.api.DynamicTest.*",
+    "org.mockito.Mockito.*",
+    "org.mockito.ArgumentMatchers.*",
+    "org.mockito.Answers.*"
+  ],
+  "python.defaultInterpreterPath": "~/.pyenv/shims/python",
   "svelte.enable-ts-plugin": true,
   "svelte.plugin.svelte.defaultScriptLanguage": "ts",
   "svelte.plugin.svelte.rename.enable": false,
   "terminal.integrated.env.osx": {
+    "CW_NEW_SESSION": "1",
     "FIG_NEW_SESSION": "1"
   },
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.fontWeight": "normal",
+  "terminal.integrated.tabs.enabled": false,
   "workbench.colorCustomizations": {
     "panel.border": "#363a48",
     "sideBar.border": "#363a48",
@@ -18,24 +63,5 @@
   "workbench.colorTheme": "Material Theme Palenight",
   "workbench.iconTheme": "vscode-icons",
   "workbench.tree.indent": 15,
-  "workbench.tree.renderIndentGuides": "always",
-  "terminal.integrated.fontSize": 12,
-  "terminal.integrated.fontWeight": "normal",
-  "terminal.integrated.tabs.enabled": false,
-  "git.confirmSync": false,
-  "github.copilot.enable": {
-    "*": true,
-    "plaintext": false,
-    "markdown": false,
-    "scminput": false
-  },
-  "[ocaml]": {
-    "editor.defaultFormatter": "ocamllabs.ocaml-platform"
-  },
-  "[c]": {
-    "editor.defaultFormatter": "ms-vscode.cpptools"
-  },
-  "[rust]": {
-    "editor.defaultFormatter": "rust-lang.rust-analyzer"
-  }
+  "workbench.tree.renderIndentGuides": "always"
 }
