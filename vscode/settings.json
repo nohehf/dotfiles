@@ -18,7 +18,6 @@
     "editor.defaultFormatter": "rust-lang.rust-analyzer"
   },
   "editor.accessibilitySupport": "off",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "JetBrainsMono Nerd Font",
   "editor.formatOnSave": true,
   "editor.minimap.enabled": false,
