@@ -1,0 +1,13 @@
+[
+    {
+      "key": "shift+cmd+d",
+      "command": "-workbench.view.debug",
+      "when": "viewContainer.workbench.view.debug.enabled"
+    },
+    {
+      "key": "shift+cmd+d",
+      "command": "workbench.action.terminal.split",
+      "when": "terminalFocus && terminalProcessSupported || terminalFocus && terminalWebExtensionContributedProfile"
+    }
+  ]
+  

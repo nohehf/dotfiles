@@ -12,6 +12,12 @@ install:
     @echo "Installing dependencies..."
     sh install.sh
 
+# Sets mac os settings (defaults write...)
+# - settings for the dock
+set-defaults:
+    @echo "Setting macos settings/defaults..."
+    sh set-defaults.sh 
+
 brew:
     brew bundle --file=Brewfile
     brew bundle --force cleanup --file=Brewfile
@@ -25,7 +31,7 @@ _symlink source *target:
 
 _git_sym: (_symlink "gitconfig") (_symlink "githelpers") (_symlink "gitignore")
 _zsh_sym: (_symlink "zshrc")
-_vscode_sym: (_symlink "vscode/settings.json" "Library/Application Support/Code/User/settings.json")
+_vscode_sym: (_symlink "vscode/settings.json" "Library/Application Support/Code/User/settings.json") (_symlink "vscode/keybindings.json" "Library/Application Support/Code/User/keybindings.json")
 
 # Install symlinks for dotfiles in the repo to the home directory (eg. creates a symlink ./filename to ~/.<filename>)
 dotfiles: _git_sym _zsh_sym _vscode_sym

@@ -1,4 +1,6 @@
 tap "oven-sh/bun"
+tap "homebrew/cask-versions"
+tap "homebrew/cask"
 
 brew "awscli"
 brew "bat"
@@ -21,6 +23,7 @@ brew "helm"
 brew "jq"
 brew "just"
 brew "kubernetes-cli"
+brew "libpq"
 brew "make"
 brew "neofetch"
 brew "nginx"
@@ -67,6 +70,9 @@ cask "raycast"
 cask "slack"
 cask "stats"
 cask "visual-studio-code"
-
+cask "xquartz"
+cask "utm"
+cask "temurin17"
+cask "intellij-idea"
 # @todo more casks once stable
 # @todo vscode extensions

@@ -5,6 +5,9 @@
   "[go]": {
     "editor.defaultFormatter": "golang.go"
   },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
   "[ocaml]": {
     "editor.defaultFormatter": "ocamllabs.ocaml-platform"
   },
@@ -27,7 +30,7 @@
   "editor.unicodeHighlight.nonBasicASCII": false,
   "git.confirmSync": false,
   "github.copilot.enable": {
-    "*": false,
+    "*": true,
     "markdown": false,
     "plaintext": false,
     "scminput": false
@@ -54,13 +57,19 @@
   "terminal.integrated.fontSize": 12,
   "terminal.integrated.fontWeight": "normal",
   "terminal.integrated.tabs.enabled": false,
+  "typescript.updateImportsOnFileMove.enabled": "never",
   "workbench.colorCustomizations": {
     "panel.border": "#363a48",
     "sideBar.border": "#363a48",
     "tree.indentGuidesStroke": "#8d36e9"
   },
   "workbench.colorTheme": "Material Theme Palenight",
+  "workbench.editor.customLabels.patterns": {
+    "**/routes/**/+layout.*": "${dirname(1)}/${dirname}.${extname}",
+    "**/routes/**/+page.*": "${dirname(1)}/${dirname}/+.${extname}"
+  },
   "workbench.iconTheme": "vscode-icons",
   "workbench.tree.indent": 15,
-  "workbench.tree.renderIndentGuides": "always"
+  "workbench.tree.renderIndentGuides": "always",
+  "explorer.confirmDelete": false
 }

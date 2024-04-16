@@ -16,17 +16,16 @@ _Note: Might want to set a proper hostname: [link](https://gist.github.com/a1ip/
 
 ### Dock
 
+`just set-defaults` will:
+
 - Reduce dock size to ~15%
 - Minimize windows using: Scale effect
 - Automatically hide and show the dock
-- Remove all apps from dock
-- Make dock faster:
+- Make hide / show the dock faster
 
-```bash
-defaults write com.apple.dock autohide-delay -int 0
-defaults write com.apple.dock autohide-time-modifier -float 0.3
-killall Dock
-```
+Last manual step to do is:
+
+- Remove all apps from dock
 
 ### Display
 

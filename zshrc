@@ -1,6 +1,5 @@
-# Fig pre block. Keep at the top of this file.
-[[ -f "$HOME/.fig/shell/zshrc.pre.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.pre.zsh"
-
+# CodeWhisperer pre block. Keep at the top of this file.
+[[ -f "${HOME}/Library/Application Support/codewhisperer/shell/zshrc.pre.zsh" ]] && builtin source "${HOME}/Library/Application Support/codewhisperer/shell/zshrc.pre.zsh"
 # Starship
 export STARSHIP_CONFIG=~/dotfiles/starship.toml
 eval "$(starship init zsh)"
@@ -49,16 +48,26 @@ zle -N down-line-or-beginning-search
 bindkey "^[[A" up-line-or-beginning-search # Up
 bindkey "^[[B" down-line-or-beginning-search # Down
 
+# Lib postgres (to remove if installing the full postgres)
+export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
 
 # GO
 export GOPATH=$HOME/go
 export GOBIN=$GOPATH/bin
 export PATH=$PATH:$GOPATH/bin
 
-# Fig post block. Keep at the bottom of this file.
-[[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.post.zsh"
-export VOLTA_HOME="$HOME/.volta"
-export PATH="$VOLTA_HOME/bin:$PATH"
+# JAVA
+# default: java 17 (temurin)
+export PATH="/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home/bin/:$PATH"
 
 # opam configuration
 [[ ! -r /Users/nohehf/.opam/opam-init/init.zsh ]] || source /Users/nohehf/.opam/opam-init/init.zsh  > /dev/null 2> /dev/null
+
+export VOLTA_HOME="$HOME/.volta"
+export PATH="$VOLTA_HOME/bin:$PATH"
+
+
+[[ -f "$HOME/fig-export/dotfiles/dotfile.zsh" ]] && builtin source "$HOME/fig-export/dotfiles/dotfile.zsh"
+
+# CodeWhisperer post block. Keep at the bottom of this file.
+[[ -f "${HOME}/Library/Application Support/codewhisperer/shell/zshrc.post.zsh" ]] && builtin source "${HOME}/Library/Application Support/codewhisperer/shell/zshrc.post.zsh"
