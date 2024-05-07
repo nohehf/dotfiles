@@ -15,7 +15,10 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.formatOnType": true,
     "editor.wordBasedSuggestions": "off",
-    "gitlens.codeLens.symbolScopes": ["!Module"]
+    "gitlens.codeLens.symbolScopes": [
+      "!Module"
+    ],
+    "editor.defaultFormatter": "charliermarsh.ruff"
   },
   "[rust]": {
     "editor.defaultFormatter": "rust-lang.rust-analyzer"
@@ -31,8 +34,8 @@
   "git.confirmSync": false,
   "github.copilot.enable": {
     "*": true,
-    "markdown": false,
     "plaintext": false,
+    "markdown": true,
     "scminput": false
   },
   "java.completion.favoriteStaticMembers": [
