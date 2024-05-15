@@ -8,20 +8,24 @@
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[ocaml]": {
     "editor.defaultFormatter": "ocamllabs.ocaml-platform"
   },
   "[python]": {
     "diffEditor.ignoreTrimWhitespace": false,
+    "editor.defaultFormatter": "charliermarsh.ruff",
     "editor.formatOnType": true,
     "editor.wordBasedSuggestions": "off",
-    "gitlens.codeLens.symbolScopes": [
-      "!Module"
-    ],
-    "editor.defaultFormatter": "charliermarsh.ruff"
+    "gitlens.codeLens.symbolScopes": ["!Module"]
   },
   "[rust]": {
     "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.accessibilitySupport": "off",
   "editor.fontFamily": "JetBrainsMono Nerd Font",
@@ -31,11 +35,12 @@
     "é": true
   },
   "editor.unicodeHighlight.nonBasicASCII": false,
+  "explorer.confirmDelete": false,
   "git.confirmSync": false,
   "github.copilot.enable": {
     "*": true,
-    "plaintext": false,
     "markdown": true,
+    "plaintext": false,
     "scminput": false
   },
   "java.completion.favoriteStaticMembers": [
@@ -73,6 +78,5 @@
   },
   "workbench.iconTheme": "vscode-icons",
   "workbench.tree.indent": 15,
-  "workbench.tree.renderIndentGuides": "always",
-  "explorer.confirmDelete": false
+  "workbench.tree.renderIndentGuides": "always"
 }

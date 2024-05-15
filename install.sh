@@ -44,4 +44,7 @@ installBin "cargo" "Rust (via rustup)" && curl --proto '=https' --tlsv1.2 -sSf h
 # TODO: remove nix if not used more
 installBin "nix" && curl --proto '=https' --tlsv1.2 -sSf -L https://install.determinate.systems/nix | sh -s -- install
 
+# jdkman
+installBin "jdk" && curl -s "https://get.sdkman.io" | bash
+
 exit 0
