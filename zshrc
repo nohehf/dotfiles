@@ -21,6 +21,9 @@ alias gwip='git add -A; git rm $(git ls-files --deleted) 2> /dev/null; git commi
 alias gunwip='git rev-list --max-count=1 --format="%s" HEAD | grep -q "\--wip--" && git reset HEAD~1'
 alias gbclean="git branch -l | grep -v '\*' |  grep -x '.*/.*' | xargs git branch -d"
 
+# Load custom functions
+source $HOME/lib.sh
+
 function mkcd() {
   mkdir -p $@ && cd ${@:$#}
 }

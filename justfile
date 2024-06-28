@@ -5,7 +5,7 @@ DOTFILE_PATH := `pwd`
 HOME := `echo ~`
 
 # Setups all the things
-setup: install brew dotfiles fonts iterm
+setup: install brew link fonts iterm
 
 # Install dependencies in install.sh
 install:
@@ -32,9 +32,10 @@ _symlink source *target:
 _git_sym: (_symlink "gitconfig") (_symlink "githelpers") (_symlink "gitignore")
 _zsh_sym: (_symlink "zshrc")
 _vscode_sym: (_symlink "vscode/settings.json" "Library/Application Support/Code/User/settings.json") (_symlink "vscode/keybindings.json" "Library/Application Support/Code/User/keybindings.json")
+_lib_sym: (_symlink "lib.sh" "lib.sh")
 
 # Install symlinks for dotfiles in the repo to the home directory (eg. creates a symlink ./filename to ~/.<filename>)
-dotfiles: _git_sym _zsh_sym _vscode_sym
+link: _git_sym _zsh_sym _vscode_sym _lib_sym
 
 # Install (nerd) fonts
 fonts:
