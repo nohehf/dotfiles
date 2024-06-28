@@ -39,8 +39,22 @@ gamr() {
     branch_name=$(format_branch_name "$commit_message")
 
     # Execute the git commands
-    git add .
     git switch -c "$branch_name"
     git commit -m "$commit_message"
     gpmr
+}
+
+# Git auto commit
+gac() {
+    # Check if the correct number of arguments are passed
+    if [ "$#" -ne 1 ]; then
+        echo "Usage: $0 'commit message'"
+        exit 1
+    fi
+
+    # Get the commit message and format the branch name
+    commit_message=$(format_commit_message "$1")
+
+    # Execute the git commands
+    git commit -m "$commit_message"
 }
