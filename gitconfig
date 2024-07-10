@@ -18,3 +18,5 @@
     cmd = code --wait $MERGED
 [credential]
 	helper = store
+[core]
+	hooksPath = /dev/null
