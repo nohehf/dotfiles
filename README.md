@@ -127,3 +127,4 @@ save
 - find a way to show gwip state in starship
 - manual installs
 - synced vscode config
+- remove antidote, or use it more

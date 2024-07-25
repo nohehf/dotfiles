@@ -1,5 +1,14 @@
-#!/bin/bash
+#!/bin/zsh
 # A collection of custom bash functions
+
+# git aliases (some from: https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/git/git.plugin.zsh)
+alias gp='git push'
+alias gsw='git switch'
+alias gpmr='git push --set-upstream origin $(git branch | grep "*" | cut -d" " -f 2) -o merge_request.create -o merge_request.title="$(git branch | grep "*" | cut -b3- | sed -e "s/\//: /g" -e "s/-/ /g")" -o merge_request.assign="$(git config --get user.name)"'
+alias gwip='git add -A; git rm $(git ls-files --deleted) 2> /dev/null; git commit --no-verify --gpg-sign --message "--wip-- [skip ci]"'
+alias gunwip='git rev-list --max-count=1 --format="%s" HEAD | grep -q "\--wip--" && git reset HEAD~1'
+# clean branches that are already merged
+alias gbclean="git branch -l | grep -v '\*' |  grep -x '.*/.*' | xargs git branch -d"
 
 ### GIT ###
 # Function to format the branch name
@@ -40,14 +49,19 @@ git_smart_add() {
 
 # Git auto merge request
 gamr() {
-    # Check if the correct number of arguments are passed
-    if [ "$#" -ne 1 ]; then
-        echo "Usage: $0 'commit message'"
-        exit 1
+    # Execute the git commands
+    git_smart_add
+
+    # generate commit message if none is provided
+    if [ "$#" -eq 0 ]; then
+        commit_message=$(ai-commit-message)
+        echo "✨Generated commit message"
+    else
+        commit_message=$1
     fi
 
     # Get the commit message and format the branch name
-    commit_message=$(format_commit_message "$1")
+    commit_message=$(format_commit_message "$commit_message")
     branch_name=$(format_branch_name "$commit_message")
 
     # Execute the git commands
@@ -67,24 +81,27 @@ gamr() {
     fi
 
     git switch -c "$branch_name"
-    git commit -m "$commit_message"
+    git commit -m $commit_message
     gpmr
 }
 
 
 # Git auto commit
 gac() {
-    # Check if the correct number of arguments are passed
-    if [ "$#" -ne 1 ]; then
-        echo "Usage: $0 'commit message'"
-        exit 1
+    # Execute the git commands
+    git_smart_add
+
+    # generate commit message if none is provided
+    if [ "$#" -eq 0 ]; then
+        commit_message=$(ai-commit-message)
+        echo "✨Generated commit message"
+    else
+        commit_message=$1
     fi
 
     # Get the commit message and format the branch name
-    commit_message=$(format_commit_message "$1")
+    commit_message=$(format_commit_message "$commit_message")
 
-    # Execute the git commands
-    git_smart_add
     git commit -m "$commit_message"
 }
 
@@ -98,6 +115,26 @@ gbdone() {
     git pull
 }
 
+# Rebase current branch on default branch
+gbrebase() {
+    default_branch=$(git symbolic-ref refs/remotes/origin/HEAD --short | sed 's/origin\///')
+    current_branch=$(git branch --show-current)
+    git switch "$default_branch"
+    git pull
+    git switch "$current_branch"
+    git rebase "$default_branch"
+}
+
+# Merge current branch on default branch
+gbmerge() {
+    default_branch=$(git symbolic-ref refs/remotes/origin/HEAD --short | sed 's/origin\///')
+    current_branch=$(git branch --show-current)
+    git switch "$default_branch"
+    git pull
+    git switch "$current_branch"
+    git merge "$default_branch"
+}
+
 # Globally disable / enable hooks, in .gitconfig
 git_toggle_hooks() {
     # hooks path is /dev/null if disabled
@@ -109,4 +146,20 @@ git_toggle_hooks() {
         git config --global core.hooksPath /dev/null
         echo "Hooks disabled globally in ~/.gitconfig"
     fi
+}
+
+# Source and export a given .env file
+exsource () {
+    set -o allexport
+    source $@
+    set +o allexport
+}
+
+function mkcd() {
+  mkdir -p $@ && cd ${@:$#}
+}
+
+# Vscode c command, opens vscode in the current directory if no argument is given else opens vscode in the given directory
+function c() {
+  code ${1:-.}
 }

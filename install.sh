@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 # This file is intended to install some tools without using brew. This is usefull for package managers or some languages to manage multiple versions.
 
 # Check if a binary exists
@@ -44,7 +44,12 @@ installBin "cargo" "Rust (via rustup)" && curl --proto '=https' --tlsv1.2 -sSf h
 # TODO: remove nix if not used more
 installBin "nix" && curl --proto '=https' --tlsv1.2 -sSf -L https://install.determinate.systems/nix | sh -s -- install
 
+
+# TODO(@nohehf): Those two checks does not seem to work
 # jdkman
-installBin "jdk" && curl -s "https://get.sdkman.io" | bash
+installBin "sdk" && curl -s "https://get.sdkman.io" | bash
+
+# antidote
+installBin "antidote"  && git clone --depth=1 https://github.com/mattmc3/antidote.git ${ZDOTDIR:-~}/.antidote
 
 exit 0

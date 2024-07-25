@@ -33,9 +33,11 @@ _git_sym: (_symlink "gitconfig") (_symlink "githelpers") (_symlink "gitignore")
 _zsh_sym: (_symlink "zshrc")
 _vscode_sym: (_symlink "vscode/settings.json" "Library/Application Support/Code/User/settings.json") (_symlink "vscode/keybindings.json" "Library/Application Support/Code/User/keybindings.json")
 _lib_sym: (_symlink "lib.sh" "lib.sh")
+_zsh_plugins_sym: (_symlink "zsh_plugins.txt")
+_secrets_sym: (_symlink "secrets")
 
 # Install symlinks for dotfiles in the repo to the home directory (eg. creates a symlink ./filename to ~/.<filename>)
-link: _git_sym _zsh_sym _vscode_sym _lib_sym
+link: _git_sym _zsh_sym _vscode_sym _lib_sym _zsh_plugins_sym _secrets_sym
 
 # Install (nerd) fonts
 fonts:
