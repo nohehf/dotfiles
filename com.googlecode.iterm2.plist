@@ -4,10 +4,16 @@
 <dict>
 	<key>AlternateMouseScroll</key>
 	<true/>
+	<key>ClickToSelectCommand</key>
+	<false/>
+	<key>CopySelection</key>
+	<false/>
 	<key>Default Bookmark Guid</key>
 	<string>6C2A63C8-7A6E-4B2E-9B41-9E14B8F4BE6E</string>
 	<key>HapticFeedbackForEsc</key>
 	<false/>
+	<key>HideMenuBarInFullscreen</key>
+	<true/>
 	<key>HotkeyMigratedFromSingleToMulti</key>
 	<true/>
 	<key>New Bookmarks</key>
@@ -947,8 +953,14 @@
 			<string>kNextWindowPointerAction</string>
 		</dict>
 	</dict>
+	<key>Print In Black And White</key>
+	<true/>
 	<key>SoundForEsc</key>
 	<false/>
+	<key>StatusBarPosition</key>
+	<integer>0</integer>
+	<key>TabViewType</key>
+	<integer>0</integer>
 	<key>VisualIndicatorForEsc</key>
 	<false/>
 	<key>findMode_iTerm</key>

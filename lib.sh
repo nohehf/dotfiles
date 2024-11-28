@@ -54,11 +54,23 @@ gamr() {
 
     # generate commit message if none is provided
     if [ "$#" -eq 0 ]; then
-        commit_message=$(ai-commit-message)
-        echo "✨Generated commit message"
+        commit_message=$(wrap_generate_commit_message)
     else
         commit_message=$1
     fi
+    
+    # Check if the commit message is empty
+    if [ -z "$commit_message" ]; then
+        echo "Error: Commit message is empty" >&2
+        return 1
+    fi
+
+    # Check if wrap_generate_commit_message returned an error
+    if [ $? -eq 1 ]; then
+        echo "Error: Failed to generate commit message" >&2
+        return 1
+    fi
+
 
     # Get the commit message and format the branch name
     commit_message=$(format_commit_message "$commit_message")
@@ -85,7 +97,6 @@ gamr() {
     gpmr
 }
 
-
 # Git auto commit
 gac() {
     # Execute the git commands
@@ -93,10 +104,21 @@ gac() {
 
     # generate commit message if none is provided
     if [ "$#" -eq 0 ]; then
-        commit_message=$(ai-commit-message)
-        echo "✨Generated commit message"
+        commit_message=$(wrap_generate_commit_message)
     else
         commit_message=$1
+    fi
+
+    # Check if the commit message is empty
+    if [ -z "$commit_message" ]; then
+        echo "Error: Commit message is empty" >&2
+        return 1
+    fi
+
+    # Check if wrap_generate_commit_message returned an error
+    if [ $? -eq 1 ]; then
+        echo "Error: Failed to generate commit message" >&2
+        return 1
     fi
 
     # Get the commit message and format the branch name
@@ -104,6 +126,73 @@ gac() {
 
     git commit -m "$commit_message"
 }
+
+# Press enter to keep the generated commit message, exit or control+c to abort or write your own commit message
+wrap_generate_commit_message() {
+    # Start spinner
+    echo -n "Generating commit message... " >&2
+    spin() {
+        local -a spinner=('⠋' '⠙' '⠹' '⠸' '⠼' '⠴' '⠦' '⠧' '⠇' '⠏')
+        while :; do
+            for i in "${spinner[@]}"; do
+                echo -ne "\r$i" >&2
+                sleep 0.1
+            done
+        done
+    }
+    spin &
+    SPIN_PID=$!
+
+    # Generate the commit message
+    generated_message=$(ai-commit-message)
+
+    # Stop spinner
+    kill $SPIN_PID
+    wait $SPIN_PID 2>/dev/null
+
+    # Clear spinner line and show generated message
+    echo -ne "\r\033[K" >&2
+    # Bright green
+    printf "✨Generated commit message: '\033[1;32m%s\033[0m'\n\n" "$generated_message" >&2
+
+    # Prompt for user action
+    echo "Press Enter to accept, Esc to abort, or type your own message:" >&2
+    
+    # Read user input
+    read -r -s -k1 key
+
+    if [[ $key == $'\x0a' ]]; then  # Enter key
+        echo "Using generated message" >&2
+        commit_message="$generated_message"
+    elif [[ $key == $'\x1b' ]]; then  # Escape key
+        echo "Aborted" >&2
+        return 1
+    else
+        # If not Enter or Escape, assume user wants to type their own message
+        echo "Enter your commit message:" >&2
+        read -r custom_message
+        commit_message="$custom_message"
+    fi
+
+    # Return the chosen commit message as the only stdout output
+    echo "$commit_message"
+    return 0
+}
+
+
+# The magic git command: g
+# If on the default branch, and we have diffs it will run gamr
+# else if we are on a feature branch, it will run gac
+g() {
+    if [ "$(git branch --show-current)" = "$(git symbolic-ref refs/remotes/origin/HEAD --short | sed 's/origin\///')" ]; then
+        echo " gamr"
+        gamr $@
+    else
+        echo "\ue729 gac"
+        gac $@
+    fi
+}
+
 
 # Git clean the current branch, and switch to the default branch
 gbdone() {

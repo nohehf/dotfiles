@@ -39,8 +39,8 @@
   "git.confirmSync": false,
   "github.copilot.enable": {
     "*": true,
-    "markdown": true,
     "plaintext": false,
+    "markdown": false,
     "scminput": false
   },
   "java.completion.favoriteStaticMembers": [
@@ -78,5 +78,17 @@
   },
   "workbench.iconTheme": "vscode-icons",
   "workbench.tree.indent": 15,
-  "workbench.tree.renderIndentGuides": "always"
+  "workbench.tree.renderIndentGuides": "always",
+  "prisma.showPrismaDataPlatformNotification": false,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "go.toolsManagement.autoUpdate": true,
+  "[svelte]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+  }
 }
